@@ -85,4 +85,9 @@
     <string-array translatable="false" name="carrier_operator_list">
     </string-array>
     <bool name="config_regional_security_show_password_enable">false</bool>
+ 
+  <!-- Volume Rocker Wake Support. Some devices do not support (PMU) this.
+        Setting to false will disable Volume Rocker Wake support -->
+    <bool name="config_show_volumeRockerWake">true</bool>
+
 </resources>
