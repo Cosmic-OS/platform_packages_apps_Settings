@@ -35,7 +35,7 @@
     <!-- Whether to hide IMS and DUN Apns -->
     <bool name="config_regional_hide_ims_and_dun_apns">false</bool>
     <!-- Carrier_enabled editable -->
-    <bool name="config_allow_edit_carrier_enabled" translatable="false">false</bool>
+    <bool name="config_allow_edit_carrier_enabled" translatable="false">true</bool>
 
     <bool name="config_regional_display_icc_id_enable">false</bool>
 
