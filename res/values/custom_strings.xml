@@ -42,6 +42,9 @@
     <string name="build_date">Build date</string>
     <string name="build_date_default">2016-01-01-0000</string>
 
+    <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+    <string name="processor_info">Processor</string>
+
     <!-- CosmicOTA -->
     <string name="cosmic_updater_title">Software Updates</string> 
 
