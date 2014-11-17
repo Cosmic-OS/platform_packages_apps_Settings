@@ -168,4 +168,5 @@ public class Settings extends SettingsActivity {
     public static class MagiskActivity extends SettingsActivity { /* empty */ }
     public static class CosmicSettingsActivity extends SettingsActivity { /* empty */ }
     public static class DisplayRotationActivity extends SettingsActivity { /* empty */ }
+    public static class ExpandedDesktopSettingsActivity extends SettingsActivity { /* empty */ }
 }
