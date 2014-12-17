@@ -16,11 +16,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<!-- Device Info Settings -->
     <!-- Cosmic-OS version -->
     <string name="cosmic_version">Cosmic-OS version</string>
     <string name="cosmic_version_default">Unknown</string>
 
-   <!-- Phone info shortcut -->
+    <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
+
+<!-- Sound & Notification Settings -->
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
 
 </resources>
