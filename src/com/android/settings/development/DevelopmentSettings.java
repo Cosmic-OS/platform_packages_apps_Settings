@@ -246,6 +246,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
     private static final String FORCE_AUTHORIZE_SUBSTRATUM_PACKAGES = "force_authorize_substratum_packages";
 
+    private static final String MEDIA_SCANNER_ON_BOOT = "media_scanner_on_boot";
+
     private static final int RESULT_DEBUG_APP = 1000;
     private static final int RESULT_MOCK_LOCATION_APP = 1001;
 
@@ -353,6 +355,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private SwitchPreference mColorTemperaturePreference;
 
     private final ArrayList<Preference> mAllPrefs = new ArrayList<>();
+
+    private ListPreference mMSOB;
 
     private final ArrayList<SwitchPreference> mResetSwitchPrefs = new ArrayList<>();
 
@@ -463,6 +467,10 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         mPassword = findPreference(LOCAL_BACKUP_PASSWORD);
         mAllPrefs.add(mPassword);
         mForceAuthorizeSubstratumPackages = findAndInitSwitchPref(FORCE_AUTHORIZE_SUBSTRATUM_PACKAGES);
+
+        mMSOB = (ListPreference) findPreference(MEDIA_SCANNER_ON_BOOT);
+        mAllPrefs.add(mMSOB);
+        mMSOB.setOnPreferenceChangeListener(this);
 
         if (!mUm.isAdminUser()) {
             disableForUser(mClearAdbKeys);
@@ -862,6 +870,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         Preference webViewAppPref = findPreference(mWebViewAppPrefController.getPreferenceKey());
         mWebViewAppPrefController.updateState(webViewAppPref);
         updateOemUnlockOptions();
+        updateMSOBOptions();
         if (mColorTemperaturePreference != null) {
             updateColorTemperature();
         }
@@ -883,6 +892,25 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 Settings.Secure.FORCE_AUTHORIZE_SUBSTRATUM_PACKAGES, 0) != 0);
     }
 
+    private void resetMSOBOptions() {
+        Settings.System.putInt(getActivity().getContentResolver(),
+                Settings.System.MEDIA_SCANNER_ON_BOOT, 0);
+    }
+
+    private void writeMSOBOptions(Object newValue) {
+        Settings.System.putInt(getActivity().getContentResolver(),
+                Settings.System.MEDIA_SCANNER_ON_BOOT,
+                Integer.valueOf((String) newValue));
+        updateMSOBOptions();
+    }
+
+    private void updateMSOBOptions() {
+        int value = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.MEDIA_SCANNER_ON_BOOT, 0);
+        mMSOB.setValue(String.valueOf(value));
+        mMSOB.setSummary(mMSOB.getEntry());
+    }
+
     private void resetDangerousOptions() {
         mDontPokeProperties = true;
         for (int i = 0; i < mResetSwitchPrefs.size(); i++) {
@@ -900,6 +928,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         mEnableAdbController.resetPreference();
         resetDebuggerOptions();
         writeLogpersistOption(null, true);
+        resetMSOBOptions();
         writeLogdSizeOption(null);
         writeAnimationScaleOption(0, mWindowAnimationScale, null);
         writeAnimationScaleOption(1, mTransitionAnimationScale, null);
@@ -2675,6 +2704,9 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             return true;
         } else if (preference == mSimulateColorSpace) {
             writeSimulateColorSpace(newValue);
+            return true;
+        } else if (preference == mMSOB) {
+            writeMSOBOptions(newValue);
             return true;
         }
         return false;
