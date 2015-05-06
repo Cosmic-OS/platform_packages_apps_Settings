@@ -173,7 +173,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         super.onResume();
         mDevHitCountdown = getActivity().getSharedPreferences(DevelopmentSettings.PREF_FILE,
                 Context.MODE_PRIVATE).getBoolean(DevelopmentSettings.PREF_SHOW,
-                        android.os.Build.TYPE.equals("eng")) ? -1 : TAPS_TO_BE_A_DEVELOPER;
+                        true) ? -1 : TAPS_TO_BE_A_DEVELOPER;
         mDevHitToast = null;
         mFunDisallowedAdmin = RestrictedLockUtils.checkIfRestrictionEnforced(
                 getActivity(), UserManager.DISALLOW_FUN, UserHandle.myUserId());
@@ -258,7 +258,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 if (mDevHitToast != null) {
                     mDevHitToast.cancel();
                 }
-                mDevHitToast = Toast.makeText(getActivity(), R.string.show_dev_already,
+                mDevHitToast = Toast.makeText(getActivity(), R.string.show_dev_already_enabled,
                         Toast.LENGTH_LONG);
                 mDevHitToast.show();
             }
