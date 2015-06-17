@@ -167,4 +167,11 @@
     <string name="screenshot_sound_title">Screenshot sound</string>
     <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
 
+    <!-- Whether the keyguard will directly pass to password entry -->
+    <string name="lock_directly_show_password">Directly show password entry</string>
+    <!-- Whether the keyguard will directly pass to pattern view -->
+    <string name="lock_directly_show_pattern">Directly show pattern view</string>
+    <!-- Whether the keyguard will directly pass to PIN entry -->
+    <string name="lock_directly_show_pin">Directly show PIN entry</string>
+
 </resources>
