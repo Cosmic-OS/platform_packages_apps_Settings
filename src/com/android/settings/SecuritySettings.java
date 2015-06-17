@@ -38,6 +38,7 @@ import android.os.UserManager;
 import android.os.storage.StorageManager;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
+import android.provider.Settings.Secure;
 import android.security.KeyStore;
 import android.service.trust.TrustAgentService;
 import android.support.v14.preference.SwitchPreference;
@@ -91,6 +92,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
     private static final String KEY_ADVANCED_SECURITY = "advanced_security";
     private static final String KEY_MANAGE_TRUST_AGENTS = "manage_trust_agents";
     private static final String KEY_UNIFICATION = "unification";
+    private static final String KEY_DIRECTLY_SHOW = "directlyshow";
 
     private static final int SET_OR_CHANGE_LOCK_METHOD_REQUEST = 123;
     private static final int CHANGE_TRUST_AGENT_SETTINGS = 126;
@@ -118,8 +120,8 @@ public class SecuritySettings extends SettingsPreferenceFragment
 
     // These switch preferences need special handling since they're not all stored in Settings.
     private static final String SWITCH_PREFERENCE_KEYS[] = {
-            KEY_SHOW_PASSWORD, KEY_TOGGLE_INSTALL_APPLICATIONS, KEY_UNIFICATION,
-            KEY_VISIBLE_PATTERN_PROFILE
+            KEY_SHOW_PASSWORD, KEY_DIRECTLY_SHOW, KEY_TOGGLE_INSTALL_APPLICATIONS,
+            KEY_UNIFICATION,KEY_VISIBLE_PATTERN_PROFILE
     };
 
     // Only allow one trust agent on the platform.
@@ -139,6 +141,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
     private SwitchPreference mUnifyProfile;
 
     private SwitchPreference mShowPassword;
+    private SwitchPreference mDirectlyShow;
 
     private KeyStore mKeyStore;
     private RestrictedPreference mResetCredentials;
@@ -299,6 +302,9 @@ public class SecuritySettings extends SettingsPreferenceFragment
         mVisiblePatternProfile =
                 (SwitchPreference) root.findPreference(KEY_VISIBLE_PATTERN_PROFILE);
         mUnifyProfile = (SwitchPreference) root.findPreference(KEY_UNIFICATION);
+
+        // directly show
+        mDirectlyShow = (SwitchPreference) root.findPreference(KEY_DIRECTLY_SHOW);
 
         // Append the rest of the settings
         addPreferencesFromResource(R.xml.security_settings_misc);
@@ -617,6 +623,11 @@ public class SecuritySettings extends SettingsPreferenceFragment
 
         updateUnificationPreference();
 
+        if (mDirectlyShow != null) {
+            mDirectlyShow.setChecked(mLockPatternUtils.shouldPassToSecurityView(
+                    MY_USER_ID));
+        }
+
         if (mShowPassword != null) {
             mShowPassword.setChecked(isPasswordVisible());
         }
@@ -804,6 +815,8 @@ public class SecuritySettings extends SettingsPreferenceFragment
                     ununifyLocks();
                 }
             }
+        } else if (KEY_DIRECTLY_SHOW.equals(key)) {
+            lockPatternUtils.setPassToSecurityView((Boolean) value, MY_USER_ID);
         } else if (KEY_SHOW_PASSWORD.equals(key)) {
             Settings.System.putInt(getContentResolver(), Settings.System.TEXT_SHOW_PASSWORD,
                     ((Boolean) value) ? 1 : 0);
