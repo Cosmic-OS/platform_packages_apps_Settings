@@ -67,7 +67,6 @@
                 android:key="vibrate_when_ringing"
                 android:title="@string/vibrate_when_ringing_title" />
 
-
         <!-- Less notification sounds -->
         <ListPreference
                 android:key="less_notification_sounds"
@@ -76,6 +75,12 @@
                 android:entries="@array/less_notification_sounds_entries"
                 android:entryValues="@array/less_notification_sounds_values"
                 android:persistent="false" />
+
+        <!-- Volume Steps -->
+        <PreferenceScreen
+                android:key="volume_steps"
+                android:title="@string/volume_steps_title"
+                android:fragment="com.android.settings.cosmic.VolumeSteps" />
 
         <!-- Interruptions -->
         <com.android.settingslib.RestrictedPreference
