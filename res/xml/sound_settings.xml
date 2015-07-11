@@ -49,6 +49,12 @@
                 android:key="vibrate_when_ringing"
                 android:title="@string/vibrate_when_ringing_title" />
 
+        <!-- Volume Steps -->
+        <PreferenceScreen
+                android:key="volume_steps"
+                android:title="@string/volume_steps_title"
+                android:fragment="com.android.settings.cosmic.VolumeSteps" />
+
         <!-- Phone ringtone -->
         <com.android.settings.DefaultRingtonePreference
                 android:key="ringtone"
