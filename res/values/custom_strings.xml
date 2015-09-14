@@ -223,4 +223,6 @@ name="app_ops_access_notifications">notifications</string>
     <string name="sub_activate_failed">Activation failed.</string>
     <string name="sub_deactivate_success">Successfully Deactivated.</string>
     <string name="sub_deactivate_failed">Deactivation failed.</string>
+    <string name="primary_sub_select_title">Default 4G/3G Subscription</string>
+
 </resources>
