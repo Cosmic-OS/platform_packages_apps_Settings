@@ -72,4 +72,9 @@
     <string name="dev_11">Sanjay Varun</string>
     <string name="dev11_description">Onyx</string>
 
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
+
 </resources>
