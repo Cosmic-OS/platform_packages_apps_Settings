@@ -41,6 +41,11 @@
     <string name="cosmic_about_mention2_title">Joshua Baldassarre</string>
     <string name="cosmic_about_mention2_summary">Cosmic-OS Graphics Designer.</string>
 
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>

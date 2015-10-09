@@ -17,11 +17,17 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
-		<!-- Cosmic-OS logo -->
+	<!-- Cosmic-OS logo -->
         <PreferenceScreen android:key="cos_logo"
                 android:enabled="false"
                 android:layout="@layout/cos_about_logo"
 		android:fragment="com.android.settings.cosmic.CosmicAbout" />
+
+        <!-- Changelog -->
+        <PreferenceScreen android:key="changelog"
+                android:title="@string/changelog_title"
+                android:summary="@string/changelog_summary"
+                android:fragment="com.android.settings.cosmic.Changelog" />
 
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
