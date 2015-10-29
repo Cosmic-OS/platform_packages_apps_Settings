@@ -26,6 +26,21 @@
     <string name="galaxy_title">Galaxy</string>
     <string name="header_category_galaxy">Cosmic-OS Tweaks</string>
 
+    <!-- About Cosmic-OS -->
+    <string name="cosmic_about_title">About Cosmic-OS</string>
+    <string name="cosmic_about_info">ROM</string>
+    <string name="cosmic_gplus_title">Cosmic-OS G+</string>
+    <string name="cosmic_gplus_summary">Visit Cosmic-OS G+ Community</string>
+    <string name="cosmic_about_info_summary">Cosmic-OS is an AOSP based custom ROM, unleashing the Cosmos. Quality and stability is our first priority as we are dedicated to bringing you the best Android has to offer.</string>
+    <string name="cosmic_about_devs">Developer</string>
+    <string name="cosmic_about_dev_title">Sagar Shah</string>
+    <string name="cosmic_about_dev_summary">Otherwise known as Spidey.</string>
+    <string name="cosmic_about_mentions">Mentions</string>
+    <string name="cosmic_about_mention1_title">Hriday Sharma</string>
+    <string name="cosmic_about_mention1_summary">AOSP Base Developer.</string>
+    <string name="cosmic_about_mention2_title">Joshua Baldassarre</string>
+    <string name="cosmic_about_mention2_summary">Cosmic-OS Graphics Designer.</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>

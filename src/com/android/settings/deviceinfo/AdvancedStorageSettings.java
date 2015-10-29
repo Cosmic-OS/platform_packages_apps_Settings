@@ -52,7 +52,7 @@ public class AdvancedStorageSettings extends SettingsPreferenceFragment
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.OWLSNEST;
+        return MetricsEvent.GALAXY;
     }
 
     @Override
