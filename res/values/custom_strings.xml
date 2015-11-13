@@ -22,6 +22,15 @@
     <string name="mod_version">Cosmic-OS version</string>
     <string name="mod_version_default">Unknown</string>
 
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="attention">Attention</string>
+    <string name="enabled">Enabled</string>
+    <string name="default_string">Default</string>
+    <string name="add">Add</string>
+    <string name="choose_app">Choose app</string>
+
     <!-- Heads up -->
     <string name="headsup_section_header">Heads up notifications</string>
     <string name="heads_up_notifications">Heads up</string>
