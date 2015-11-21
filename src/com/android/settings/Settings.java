@@ -168,4 +168,5 @@ public class Settings extends SettingsActivity {
 
     // Cosmic-OS Additions.
     public static class CosmicSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class DisplayRotationActivity extends SettingsActivity { /* empty */ }
 }
