@@ -77,4 +77,9 @@
     <string name="night_display_ok">Ok</string>
 
     <string name="notification_category_title">Notifications</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+
 </resources>
