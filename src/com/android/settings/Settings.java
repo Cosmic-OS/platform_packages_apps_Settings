@@ -166,5 +166,7 @@ public class Settings extends SettingsActivity {
     public static class PersonalSettings extends SettingsActivity { /* empty */ }
     public static class SystemSettings extends SettingsActivity { /* empty */ }
 
+    // Cosmic-OS Additions.
     public static class ButtonsSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class CosmicSettingsActivity extends SettingsActivity { /* empty */ }
 }

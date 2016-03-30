@@ -27,7 +27,9 @@
     <string name="build_date_default">2016-01-01-0000</string>
 
     <!-- Dashboard -->
-    <string name="header_category_custom">Galaxy</string>
+    <string name="header_category_custom">Cosmic-OS Tweaks</string>
+    <string name="cosmic_settings_title">Galaxy</string>
+    <string name="cosmic_settings_summary">Customize ROM features</string>
 
     <!-- CosmicOTA -->
     <string name="cosmic_updater_title">Software Updates</string> 
