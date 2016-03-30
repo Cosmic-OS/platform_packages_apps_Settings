@@ -26,6 +26,9 @@
     <string name="build_date">Build date</string>
     <string name="build_date_default">2016-01-01-0000</string>
 
+    <!-- Dashboard -->
+    <string name="header_category_custom">Galaxy</string>
+
     <!-- CosmicOTA -->
     <string name="cosmic_updater_title">Software Updates</string> 
 
