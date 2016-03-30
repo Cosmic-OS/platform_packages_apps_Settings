@@ -83,6 +83,8 @@
 <!-- Custom Settings -->    
   <!-- Dashboard -->
     <string name="header_category_custom">Galaxy</string>
+    <string name="cosmic_settings_title">Cosmic-OS Settings</string>
+    <string name="cosmic_settings_summary">Customize ROM features</string>
 
 <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
