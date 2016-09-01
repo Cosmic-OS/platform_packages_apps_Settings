@@ -108,6 +108,9 @@
     <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
 
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
+
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
     <string name="display_rotation_disabled">Disabled</string>
