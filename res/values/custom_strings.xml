@@ -22,6 +22,10 @@
     <string name="mod_version">Cosmic-OS version</string>
     <string name="mod_version_default">Unknown</string>
 
+    <!-- Galaxy -->
+    <string name="galaxy_title">Galaxy</string>
+    <string name="header_category_galaxy">Cosmic-OS Tweaks</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
