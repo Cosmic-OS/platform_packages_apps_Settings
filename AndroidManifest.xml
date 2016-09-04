@@ -960,6 +960,33 @@
                 android:value="true" />
         </activity>
 
+        <activity android:name="Settings$AppOpsSummaryActivity"
+                android:label="@string/app_ops_settings"
+                android:icon="@drawable/ic_settings_appops"
+                android:taskAffinity=""
+                android:enabled="true">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.applications.AppOpsSummary" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.settings.APP_OPS_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="2">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.custom" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.applications.AppOpsSummary" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
         <activity android:name="Settings$DisplaySettingsActivity"
                 android:label="@string/display_settings"
                 android:icon="@drawable/ic_settings_display"
@@ -1289,21 +1316,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.VOICE" />
             </intent-filter>
-        </activity>
-
-        <activity android:name="Settings$AppOpsSummaryActivity"
-                android:label="@string/app_ops_settings"
-                android:taskAffinity=""
-                android:enabled="false">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.settings.APP_OPS_SETTINGS" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.VOICE_LAUNCH" />
-                <category android:name="com.android.settings.SHORTCUT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.applications.AppOpsSummary" />
         </activity>
 
         <activity android:name="Settings$BackgroundCheckSummaryActivity"
