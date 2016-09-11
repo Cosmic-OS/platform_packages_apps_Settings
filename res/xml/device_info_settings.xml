@@ -84,6 +84,12 @@
                 android:title="@string/mbn_version"
                 android:summary="@string/device_info_default"/>
 
+        <!-- Mod version -->
+        <Preference android:key="mod_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/mod_version"
+                android:summary="@string/mod_version_default" />
+
         <!-- Device Baseband version -->
         <Preference android:key="baseband_version"
                 android:enabled="false"
