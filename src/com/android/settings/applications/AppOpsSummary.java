@@ -112,6 +112,9 @@ public class AppOpsSummary extends InstrumentedPreferenceFragment {
         mViewPager.setOnPageChangeListener(adapter);
         PagerTabStrip tabs = (PagerTabStrip) rootView.findViewById(R.id.tabs);
 
+        // HACK - https://code.google.com/p/android/issues/detail?id=213359
+        ((ViewPager.LayoutParams)tabs.getLayoutParams()).isDecor = true;
+
         // This should be set in the XML layout, but PagerTabStrip lives in
         // support-v4 and doesn't have styleable attributes.
         final TypedArray ta = tabs.getContext().obtainStyledAttributes(
