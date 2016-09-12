@@ -94,11 +94,23 @@
                 android:title="@string/tap_to_wake"
                 android:summary="@string/tap_to_wake_summary" />
 
+        <PreferenceCategory
+                android:key="dashboard_category"
+                android:title="@string/dashboard_category">
+
+        <com.cosmic.settings.preferences.SystemSettingSwitchPreference
+                android:key="disable_suggestions"
+                android:title="@string/disable_suggestions_title"
+                android:summary="@string/disable_suggestions_summary"
+                android:defaultValue="false" />
+
         <com.cosmic.settings.preferences.SystemSettingSwitchPreference
                 android:key="remove_tile_summary"
                 android:title="@string/remove_tile_summaries_title"
                 android:summary="@string/remove_tile_summaries_summary"
                 android:defaultValue="false" />
+
+        </PreferenceCategory>
 
         <PreferenceScreen
                 android:key="font_size"
