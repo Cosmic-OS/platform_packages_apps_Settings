@@ -94,6 +94,12 @@
                 android:title="@string/tap_to_wake"
                 android:summary="@string/tap_to_wake_summary" />
 
+        <com.cosmic.settings.preferences.SystemSettingSwitchPreference
+                android:key="remove_tile_summary"
+                android:title="@string/remove_tile_summaries_title"
+                android:summary="@string/remove_tile_summaries_summary"
+                android:defaultValue="false" />
+
         <PreferenceScreen
                 android:key="font_size"
                 android:title="@string/title_font_size"
