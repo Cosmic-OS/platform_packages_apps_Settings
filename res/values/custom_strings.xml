@@ -55,6 +55,9 @@
     <string name="add">Add</string>
     <string name="choose_app">Choose app</string>
 
+    <!-- substratum dashboard tile title -->
+    <string name="substratum_settings_title">Substratum</string>
+
     <!-- Heads up -->
     <string name="headsup_section_header">Heads up notifications</string>
     <string name="heads_up_notifications">Heads up</string>
