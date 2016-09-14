@@ -185,4 +185,9 @@ name="app_ops_access_notifications">notifications</string>
     <string name="volume_steps_5" translatable="false">5</string>
 
     <string name="link_volume_option_title">Link ring and notification volume</string>
+
+    <!-- Reset battery stats -->
+    <string name="ok">Ok</string>
+    <string name="menu_stats_reset">Reset stats</string>
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>
