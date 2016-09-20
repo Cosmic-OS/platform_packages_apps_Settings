@@ -20,9 +20,9 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
         <com.android.settings.preference.SystemSettingSwitchPreference
-        android:key="battery_saver_notification"
-        android:title="@string/battery_saver_notif_title"
-        android:summary="@string/battery_saver_notif_summary"
+        android:key="battery_low_notification"
+        android:title="@string/battery_low_notif_title"
+        android:summary="@string/battery_low_notif_summary"
         android:defaultValue="true" />
 
         <com.android.settings.preference.SystemSettingSwitchPreference
