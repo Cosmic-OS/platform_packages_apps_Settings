@@ -18,6 +18,11 @@
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/about_settings">
 
+		<!-- Cosmic-OS logo -->
+        <PreferenceScreen android:key="cos_logo"
+                android:enabled="false"
+                android:layout="@layout/cos_about_logo" />
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
