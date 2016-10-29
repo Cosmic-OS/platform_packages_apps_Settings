@@ -164,6 +164,9 @@
     <string name="cosmic_settings_title">Galaxy</string>
     <string name="cosmic_settings_summary">Customize ROM features</string>
 
+<!-- Navigation -->
+    <string name="navigation_category">Navigation</string>
+
 <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
