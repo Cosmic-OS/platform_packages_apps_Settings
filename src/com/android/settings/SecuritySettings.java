@@ -93,6 +93,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
     private static final String KEY_MANAGE_TRUST_AGENTS = "manage_trust_agents";
     private static final String KEY_UNIFICATION = "unification";
     private static final String KEY_DIRECTLY_SHOW = "directlyshow";
+    private static final String KEY_LOCKSCREEN_QUICK_UNLOCK_CONTROL = "quick_unlock_control";
 
     private static final int SET_OR_CHANGE_LOCK_METHOD_REQUEST = 123;
     private static final int CHANGE_TRUST_AGENT_SETTINGS = 126;
@@ -118,7 +119,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
     // These switch preferences need special handling since they're not all stored in Settings.
     private static final String SWITCH_PREFERENCE_KEYS[] = {
             KEY_SHOW_PASSWORD, KEY_DIRECTLY_SHOW, KEY_TOGGLE_INSTALL_APPLICATIONS,
-            KEY_UNIFICATION,KEY_VISIBLE_PATTERN_PROFILE
+            KEY_UNIFICATION,KEY_VISIBLE_PATTERN_PROFILE, KEY_LOCKSCREEN_QUICK_UNLOCK_CONTROL
     };
 
     // Only allow one trust agent on the platform.
@@ -145,6 +146,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
 
     private RestrictedSwitchPreference mToggleAppInstallation;
     private DialogInterface mWarnInstallApps;
+    private SwitchPreference mQuickUnlockScreen;
 
     private boolean mIsAdmin;
 
@@ -302,6 +304,14 @@ public class SecuritySettings extends SettingsPreferenceFragment
 
         // directly show
         mDirectlyShow = (SwitchPreference) root.findPreference(KEY_DIRECTLY_SHOW);
+
+        // Quick Unlock Screen Control
+        mQuickUnlockScreen = (SwitchPreference) root
+                .findPreference(KEY_LOCKSCREEN_QUICK_UNLOCK_CONTROL);
+        if (mQuickUnlockScreen != null) {
+            mQuickUnlockScreen.setChecked(Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.LOCKSCREEN_QUICK_UNLOCK_CONTROL, 0) == 1);
+        }
 
         // Append the rest of the settings
         addPreferencesFromResource(R.xml.security_settings_misc);
@@ -805,6 +815,10 @@ public class SecuritySettings extends SettingsPreferenceFragment
             } else {
                 setNonMarketAppsAllowed(false);
             }
+        } else if (KEY_LOCKSCREEN_QUICK_UNLOCK_CONTROL.equals(key)) {
+            Settings.Secure.putInt(getActivity().getApplicationContext().getContentResolver(),
+                    Settings.Secure.LOCKSCREEN_QUICK_UNLOCK_CONTROL,
+                    (Boolean) value ? 1 : 0);
         }
         return result;
     }
