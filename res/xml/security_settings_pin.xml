@@ -33,6 +33,12 @@
             android:persistent="false"
             android:title="@string/lock_directly_show_pin"/>
 
+        <SwitchPreference
+            android:key="quick_unlock_control"
+            android:title="@string/unlock_quick_unlock_control_title"
+            android:summary="@string/unlock_quick_unlock_control_summary"
+            android:persistent="false"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
