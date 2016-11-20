@@ -24,7 +24,7 @@
             android:key="dial_pad_tones"
             android:title="@string/dial_pad_tones_title" />
 
-    <com.android.settings.preference.SystemSettingSwitchPreference
+    <com.cosmic.galaxy.preference.SystemSettingSwitchPreference
         android:key="screenshot_sound"
         android:title="@string/screenshot_sound_title"
         android:summary="@string/screenshot_sound_summary"

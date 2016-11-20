@@ -25,6 +25,9 @@
 # Galaxy
 -keep class com.cosmic.galaxy.**
 
+#Colorpicker
+-keep class net.cosmic.colorpicker.**
+
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
   *** onClick*(...);

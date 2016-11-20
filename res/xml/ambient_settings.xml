@@ -27,7 +27,7 @@
         android:summary="@string/doze_summary"
         android:persistent="false" />
 
-    <com.android.settings.preference.SystemSettingSwitchPreference
+    <com.cosmic.galaxy.preference.SystemSettingSwitchPreference
         android:key="doze_overwrite_value"
         android:title="@string/doze_overwrite_value_title"
         android:summary="@string/doze_overwrite_value_summary"
@@ -72,7 +72,7 @@
 
     </PreferenceCategory>
 
-    <com.android.settings.preference.SystemSettingSwitchPreference
+    <com.cosmic.galaxy.preference.SystemSettingSwitchPreference
         android:key="doze_pulse_on_pickup"
         android:title="@string/doze_trigger_pickup_title"
         android:summaryOn="@string/doze_trigger_pickup_summary_on"
@@ -80,7 +80,7 @@
         android:defaultValue="true"
         android:dependency="doze_overwrite_value" />
 
-    <com.android.settings.preference.SystemSettingSwitchPreference
+    <com.cosmic.galaxy.preference.SystemSettingSwitchPreference
         android:key="doze_pulse_on_notifications"
         android:title="@string/doze_trigger_notification_title"
         android:summaryOn="@string/doze_trigger_notification_summary_on"

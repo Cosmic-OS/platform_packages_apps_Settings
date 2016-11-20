@@ -19,20 +19,14 @@
     android:title="@string/sound_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-        <com.android.settings.preference.SystemSettingSwitchPreference
+        <com.cosmic.galaxy.preference.SystemSettingSwitchPreference
         android:key="battery_low_notification"
         android:title="@string/battery_low_notif_title"
         android:summary="@string/battery_low_notif_summary"
         android:defaultValue="true" />
 
-        <com.android.settings.preference.SystemSettingSwitchPreference
-        android:key="flashlight_notification"
-        android:title="@string/flashlight_notification_title"
-        android:summary="@string/flashlight_notification_summary"
-        android:defaultValue="false" />
-
 	<!-- Heads up -->
-        <com.android.settings.preference.GlobalSettingSwitchPreference
+        <com.cosmic.galaxy.preference.GlobalSettingSwitchPreference
         android:key="heads_up_notifications_enabled"
         android:title="@string/heads_up_notifications"
         android:summaryOn="@string/summary_heads_up_enabled"
