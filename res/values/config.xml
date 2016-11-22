@@ -115,7 +115,7 @@
     <bool name="config_gesture_settings_enabled">true</bool>
 
     <!-- If the Storage Manager settings are enabled. -->
-    <bool name="config_storage_manager_settings_enabled">false</bool>
+    <bool name="config_storage_manager_settings_enabled">true</bool>
 
     <bool name="usb_tethering_show_alert_for_turn_off_wifi">false</bool>
 
