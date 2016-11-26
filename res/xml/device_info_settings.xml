@@ -20,8 +20,7 @@
 	<!-- Cosmic-OS logo -->
         <PreferenceScreen android:key="cos_logo"
                 android:enabled="false"
-                android:layout="@layout/cos_about_logo"
-		android:fragment="com.android.settings.cosmic.CosmicAbout" />
+                android:layout="@layout/cos_about_logo" />
 
         <!-- Changelog -->
         <PreferenceScreen android:key="changelog"
