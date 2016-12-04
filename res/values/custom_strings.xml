@@ -31,6 +31,34 @@
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
 
+    <!-- About Cosmic-OS -->
+    <string name="cosmic_about_info">About Cosmic-OS</string>
+    <string name="cosmic_about_info_summary">Cosmic-OS is a Custom ROM based on AOSP with Full Substratum OMS-7 Support, The main aim of this ROM is to deliver light speed performance with features, smoothness and good battery backup. We hope that you\'ll love this project, and help us in shaping it even better in the future.</string>
+    <string name="dev_info">About Cosmic-OS</string>
+    <string name="mention">Honorable Mentions</string>
+    <string name="devs_header">Developers</string>
+    <string name="dev_1">Sagar Shah &#40;sagarshah1729&#41;</string>
+    <string name="dev1_description">Founder/Developer, Lettuce Maintainer</string>
+    <string name="dev_2">Hriday Sharma</string>
+    <string name="dev2_description">Base Developer/Helper</string>
+    <string name="dev_3">Aditya Upreti &#40;aditheking&#41;</string>
+    <string name="dev3_description">Co-Founder/Developer, Grand-2 Maintainer</string>
+    <string name="dev_4">Harsh Shandiliya &#40;MSFjarvis&#41;</string>
+    <string name="dev4_description">Helper/Developer, Jalebi Maintainer</string>
+    <string name="maintainers_header">Maintainers</string>
+    <string name="dev_5">Rohit Negi</string>
+    <string name="dev5_description">Kenzo</string>
+    <string name="dev_6">Nitinkumar Chobhe</string>
+    <string name="dev6_description">Mako</string>
+    <string name="dev_7">Shubham Singh</string>
+    <string name="dev7_description">MotoG3</string>
+    <string name="dev_8">Abhiram Shibu</string>
+    <string name="dev8_description">Tomato</string>
+    <string name="dev_9">Agent Fabulous</string>
+    <string name="dev9_description">Taoshan</string>
+    <string name="dev_10">Falcon (FireBird)</string>
+    <string name="dev10_description">Clark, Oneplus3</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
