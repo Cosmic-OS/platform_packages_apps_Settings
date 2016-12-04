@@ -23,6 +23,12 @@
                 android:enabled="false"
                 android:layout="@layout/cos_about_logo" />
 
+        <!-- About Devs -->
+        <PreferenceScreen
+        android:key="dev_info"
+        android:title="@string/dev_info"
+        android:fragment="com.android.settings.cosmic.devs" />
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
