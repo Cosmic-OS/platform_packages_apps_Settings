@@ -18,9 +18,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Bluetooth settings. A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-    <string name="bluetooth_accept_all_files">Accept all file types</string>
-
     <!-- About phone screen, Cosmic-OS version -->
     <string name="mod_version">Cosmic-OS version</string>
     <string name="mod_version_default">Unknown</string>
@@ -28,6 +25,12 @@
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
     <string name="build_date_default">2016-01-01-0000</string>
+
+    <!-- CosmicOTA -->
+    <string name="cosmic_updater_title">Software Updates</string> 
+
+    <!-- Bluetooth settings. A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Accept all file types</string>
 
     <!-- Accessibility settings -->
     <string name="accessibility_settings_summary">Easier access</string>
