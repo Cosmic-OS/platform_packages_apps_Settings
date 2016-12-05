@@ -58,6 +58,8 @@
     <string name="dev9_description">Taoshan</string>
     <string name="dev_10">Falcon (FireBird)</string>
     <string name="dev10_description">Clark, Oneplus3</string>
+    <string name="dev_11">Sanjay Varun</string>
+    <string name="dev11_description">Onyx</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
