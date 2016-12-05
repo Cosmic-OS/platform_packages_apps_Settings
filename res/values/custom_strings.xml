@@ -31,6 +31,9 @@
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
 
+    <!-- CosmicOTA -->
+    <string name="cosmic_updater_title">Cosmic Updates</string> 
+
     <!-- About Cosmic-OS -->
     <string name="cosmic_about_info">About Cosmic-OS</string>
     <string name="cosmic_about_info_summary">Cosmic-OS is a Custom ROM based on AOSP with Full Substratum OMS-7 Support, The main aim of this ROM is to deliver light speed performance with features, smoothness and good battery backup. We hope that you\'ll love this project, and help us in shaping it even better in the future.</string>
