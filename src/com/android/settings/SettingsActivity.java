@@ -64,7 +64,6 @@ import com.android.settings.accounts.ChooseAccountActivity;
 import com.android.settings.accounts.ManagedProfileSettings;
 import com.android.settings.applications.AdvancedAppSettings;
 import com.android.settings.applications.DrawOverlayDetails;
-import com.android.settings.applications.ExpandedDesktopPreferenceFragment;
 import com.android.settings.applications.InstalledAppDetails;
 import com.android.settings.applications.ManageApplications;
 import com.android.settings.applications.ManageAssist;
@@ -236,13 +235,9 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String ACTION_TIMER_SWITCH = "qualcomm.intent.action.TIMER_SWITCH";
 
-    private static final String STWEAKS_FRAGMENT = "com.android.settings.STweaks";
-
     private static final String SUPERSU_FRAGMENT = "com.android.settings.SuperSU";
 
     private static final String SUBSTRATUM_FRAGMENT = "com.android.settings.Substratum";
-
-    private static final String TOOLBOX_FRAGMENT = "com.android.settings.Toolbox";
 
     private String mFragmentClass;
     private String mActivityAction;
@@ -379,7 +374,6 @@ public class SettingsActivity extends SettingsDrawerActivity
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
-            ExpandedDesktopPreferenceFragment.class.getName()
     };
 
 
@@ -1055,13 +1049,6 @@ public class SettingsActivity extends SettingsDrawerActivity
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
 
-        if (STWEAKS_FRAGMENT.equals(fragmentName)) {
-            Intent stweaksIntent = new Intent();
-            stweaksIntent.setClassName("com.gokhanmoral.stweaks.app", "com.gokhanmoral.stweaks.app.MainActivity");
-            startActivity(stweaksIntent);
-            finish();
-            return null;
-        }
         if (SUPERSU_FRAGMENT.equals(fragmentName)) {
             Intent superSUIntent = new Intent();
             superSUIntent.setClassName("eu.chainfire.supersu", "eu.chainfire.supersu.MainActivity");
@@ -1072,13 +1059,6 @@ public class SettingsActivity extends SettingsDrawerActivity
         if (SUBSTRATUM_FRAGMENT.equals(fragmentName)) {
             Intent subIntent = new Intent();
             subIntent.setClassName("projekt.substratum", "projekt.substratum.LaunchActivity");
-            startActivity(subIntent);
-            finish();
-            return null;
-        }
-        if (TOOLBOX_FRAGMENT.equals(fragmentName)) {
-            Intent subIntent = new Intent();
-            subIntent.setClassName("com.jdcteam.toolbox", "com.jdcteam.toolbox.ToolboxMain");
             startActivity(subIntent);
             finish();
             return null;
@@ -1177,16 +1157,6 @@ public class SettingsActivity extends SettingsDrawerActivity
                         Settings.DevelopmentSettingsActivity.class.getName()),
                 showDev, isAdmin, pm);
 
-        // STweaks
-        boolean stweaksSupported = false;
-        try {
-            stweaksSupported = (getPackageManager().getPackageInfo("com.gokhanmoral.stweaks.app", 0).versionCode > 0);
-        } catch (PackageManager.NameNotFoundException e) {
-        }
-        setTileEnabled(new ComponentName(packageName,
-                        Settings.STweaksActivity.class.getName()),
-                stweaksSupported, isAdmin, pm);
-
         // Substratum
         boolean subSupported = false;
         try {
@@ -1206,16 +1176,6 @@ public class SettingsActivity extends SettingsDrawerActivity
         setTileEnabled(new ComponentName(packageName,
                         Settings.SuperSUActivity.class.getName()),
                 suSupported, isAdmin, pm);
-
-        // Toolbox
-        boolean toolboxSupported = false;
-        try {
-            toolboxSupported = (getPackageManager().getPackageInfo("com.jdcteam.toolbox", 0).versionCode >= 0);
-        } catch (PackageManager.NameNotFoundException e) {
-        }
-        setTileEnabled(new ComponentName(packageName,
-                        Settings.ToolboxActivity.class.getName()),
-                toolboxSupported, isAdmin, pm);
 
         // Reveal development-only quick settings tiles
         DevelopmentTiles.setTilesEnabled(this, showDev);
