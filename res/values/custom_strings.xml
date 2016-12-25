@@ -62,4 +62,13 @@
     <string name="sub_activate_failed">Activation failed.</string>
     <string name="sub_deactivate_success">SIM deactivated.</string>
     <string name="sub_deactivate_failed">Deactivation failed.</string>
+
+    <!-- About phone screen, Cosmic-OS version -->
+    <string name="mod_version">Cosmic-OS version</string>
+    <string name="mod_version_default">Unknown</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2016-01-01-0000</string>
+
 </resources>
