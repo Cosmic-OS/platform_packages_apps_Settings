@@ -31,4 +31,10 @@
 
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+
+    <!-- Accessibility settings -->
+    <string name="accessibility_settings_summary">Easier access</string>
+
+    <!-- Developer options summary -->
+    <string name="dev_advanced_settings_summary">For the experienced user</string>
 </resources>
