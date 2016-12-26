@@ -2498,7 +2498,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         public void setListening(boolean listening) {
             if (listening) {
                 mSummaryLoader.setSummary(this, mContext.getResources().
-                        getString(R.string.advanced_settings_summary));
+                        getString(R.string.dev_advanced_settings_summary));
             }
         }
     }

@@ -133,15 +133,15 @@
     <!-- Accessibility settings -->
     <string name="accessibility_settings_summary">Easier access</string>
 
-    <!-- Advanced settings (former: Developer options) -->
-    <string name="dev_advanced_settings_summary">For the experienced user</string>
-
 <!-- Navigation -->
     <string name="navigation_category">Navigation</string>
 
-<!-- Development Settings -->
-    <!-- Dev Options Enabled by Default -->
-    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+<!-- Advanced Settings -->
+    <!-- Advanced Options title and summary -->
+    <string name="dev_advanced_settings_title">Advanced settings</string>
+    <string name="dev_advanced_settings_summary">For the experienced user</string>
+    <!-- Advanced Options Enabled by Default -->
+    <string name="dev_advanced_already_enabled">No need, advanced settings are enabled by default.</string>
     <!-- ADB debugging notifications -->
     <string name="enable_adb_custom">Android debugging</string>
     <string name="enable_adb_summary_custom">Enable the Android Debug Bridge (adb) interface</string>
