@@ -130,19 +130,11 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 PROPERTY_QGP_VERSION);
         findPreference(KEY_KERNEL_VERSION).setSummary(DeviceInfoUtils.customizeFormatKernelVersion(
                 getResources().getBoolean(R.bool.def_hide_kernel_version_name)));
-<<<<<<< HEAD
         setValueSummary(KEY_MBN_VERSION, PROPERTY_MBN_VERSION);
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_MBN_VERSION,
                 PROPERTY_MBN_VERSION);
-=======
-        String mMbnVersion = getMBNVersionValue();
-        setStringSummary(KEY_MBN_VERSION, mMbnVersion);
-        if(mMbnVersion == null){
-            getPreferenceScreen().removePreference(findPreference(KEY_MBN_VERSION));
-        }
 	setValueSummary(KEY_MOD_VERSION, "ro.mod.version");
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
->>>>>>> d56a5d6... Settings: add Cosmic-OS version and Build date
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);
