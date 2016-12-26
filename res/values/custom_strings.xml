@@ -130,6 +130,12 @@
     <string name="cosmic_settings_title">Galaxy</string>
     <string name="cosmic_settings_summary">Customize ROM features</string>
 
+    <!-- Accessibility settings -->
+    <string name="accessibility_settings_summary">Easier access</string>
+
+    <!-- Advanced settings (former: Developer options) -->
+    <string name="dev_advanced_settings_summary">For the experienced user</string>
+
 <!-- Navigation -->
     <string name="navigation_category">Navigation</string>
 
