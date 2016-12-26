@@ -29,12 +29,13 @@
     <string name="build_date">Build date</string>
     <string name="build_date_default">2016-01-01-0000</string>
 
-    <!-- Dev Options Enabled by Default -->
-    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
-
     <!-- Accessibility settings -->
     <string name="accessibility_settings_summary">Easier access</string>
 
-    <!-- Developer options summary -->
+    <!-- Advanced Options title and summary -->
+    <string name="dev_advanced_settings_title">Advanced settings</string>
     <string name="dev_advanced_settings_summary">For the experienced user</string>
+
+    <!-- Advanced Options Enabled by Default -->
+    <string name="dev_advanced_already_enabled">No need, advanced settings are enabled by default.</string>
 </resources>

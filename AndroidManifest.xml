@@ -2100,7 +2100,7 @@
         </activity>
 
         <activity android:name="Settings$DevelopmentSettingsActivity"
-                android:label="@string/development_settings_title"
+                android:label="@string/dev_advanced_settings_title"
                 android:icon="@drawable/ic_settings_development"
                 android:taskAffinity="com.android.settings"
                 android:parentActivityName="Settings">
