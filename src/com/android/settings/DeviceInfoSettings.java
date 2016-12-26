@@ -288,7 +288,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 if (mDevHitToast != null) {
                     mDevHitToast.cancel();
                 }
-                mDevHitToast = Toast.makeText(getActivity(), R.string.show_dev_already_enabled,
+                mDevHitToast = Toast.makeText(getActivity(), R.string.dev_advanced_already_enabled,
                         Toast.LENGTH_LONG);
                 mDevHitToast.show();
             }
