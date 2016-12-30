@@ -95,7 +95,7 @@ public class DisplayRotation extends SettingsPreferenceFragment implements OnPre
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.FLASH;
+        return MetricsEvent.GALAXY;
     }
 
     @Override
