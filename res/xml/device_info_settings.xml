@@ -21,7 +21,11 @@
 	<!-- Cosmic-OS logo -->
         <PreferenceScreen android:key="cos_logo"
                 android:enabled="false"
-                android:layout="@layout/cos_about_logo" />
+                android:layout="@layout/cos_about_logo">
+        <intent android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Cosmic-OS/" />
+        </PreferenceScreen>
+
 
         <!-- About Devs -->
         <PreferenceScreen

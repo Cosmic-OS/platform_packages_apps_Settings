@@ -75,6 +75,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String PROPERTY_QGP_VERSION = "persist.qgp.version";
     private static final String KEY_MOD_VERSION = "mod_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
+    private static final String KEY_COS_LOGO = "cos_logo";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -281,6 +282,13 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             }
         } else if (preference.getKey().equals(KEY_DEVICE_FEEDBACK)) {
             sendFeedback();
+        } else if (preference.getKey().equals(KEY_COS_LOGO)) {
+            if (getPackageManager().queryIntentActivities(preference.getIntent(), 0).isEmpty()) {
+                // Don't send out the intent to stop crash
+                Log.w(LOG_TAG, "Stop click action on " + KEY_COS_LOGO + ": "
+                        + "queryIntentActivities() returns empty" );
+                return true;
+            }
         }
         return super.onPreferenceTreeClick(preference);
     }
