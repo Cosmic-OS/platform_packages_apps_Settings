@@ -82,7 +82,8 @@
     <string name="dev10_description">Clark</string>
     <string name="dev_11">Sanjay Varun</string>
     <string name="dev11_description">Onyx</string>
-
+    <string name="dev_12">Arseniy Graur (argraur)</string>
+    <string name="dev12_description">Bullhead</string>
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
