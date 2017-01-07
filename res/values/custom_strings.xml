@@ -84,7 +84,9 @@
     <string name="dev11_description">Onyx</string>
     <string name="dev_12">Arseniy Graur (argraur)</string>
     <string name="dev12_description">Bullhead</string>
-    <!-- Changelog -->
+    <string name="dev_13">Kranoner</string>
+    <string name="dev13_description">Titan</string>
+     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
