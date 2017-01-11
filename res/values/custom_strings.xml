@@ -89,5 +89,6 @@
 
     <!-- sRGB -->
     <string name="srgb_title">sRGB</string>
+    <string name="srgb_summary">Enable sRGB display calibration</string>
 
 </resources>
