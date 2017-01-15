@@ -2790,6 +2790,8 @@
                 android:resource="@string/cosmic_settings_summary" />
         </activity>
 
+        <activity android:name="com.cosmic.settings.fragments.recentshidden.HAFRAppListActivity" />
+
         <!-- Show Manual (from settings item) -->
         <activity android:name="ManualDisplayActivity"
                   android:label="@string/manual"
