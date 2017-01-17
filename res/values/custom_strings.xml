@@ -51,7 +51,7 @@
     <string name="mem_info">RAM</string>
 
     <!-- CosmicOTA -->
-    <string name="cosmic_updater_title">Software Updates</string> 
+    <string name="cosmic_updater_title">Software Updates</string>
 
     <!-- About Cosmic-OS -->
     <string name="cosmic_about_info">About Cosmic-OS</string>
@@ -86,12 +86,14 @@
     <string name="dev12_description">Bullhead</string>
     <string name="dev_13">Kranoner</string>
     <string name="dev13_description">Titan</string>
+    <string name="dev_14">Diazz72</string>
+    <string name="dev14_description">HeroLTE</string>
      <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
 
-<!-- Custom Settings -->    
+<!-- Custom Settings -->
   <!-- Dashboard -->
     <string name="header_category_custom">Cosmic-OS Tweaks</string>
     <string name="cosmic_settings_title">Galaxy</string>
