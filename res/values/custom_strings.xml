@@ -88,6 +88,9 @@
     <string name="dev13_description">Titan</string>
     <string name="dev_14">Diazz72</string>
     <string name="dev14_description">HeroLTE</string>
+    <string name="dev_15">Nolan Roell</string>
+    <string name="dev15_description">Developer, VS985 Maintainer</string>
+
      <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
