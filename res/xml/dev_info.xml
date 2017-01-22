@@ -119,7 +119,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_devs_phone">
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/108014036384818013467" />
+               android:data="https://forum.xda-developers.com/member.php?u=6355400" />
       </PreferenceScreen>
 
     <PreferenceScreen
