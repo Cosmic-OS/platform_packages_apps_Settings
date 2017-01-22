@@ -91,6 +91,21 @@
     <string name="dev_15">Nolan Roell</string>
     <string name="dev15_description">Developer, VS985 Maintainer</string>
 
+    <!-- Social -->
+    <string name="social_header">#EXPLORETHECOSMOS</string>
+    <string name="cosmic_web">Website</string>
+    <string name="cosmic_web_description">Official Cosmic-OS website for downloads and more.</string>
+    <string name="cosmic_web_link">cosmic-os.me</string>
+    <string name="cosmic_google_plus">Google Plus</string>
+    <string name="cosmic_google_plus_description">Cosmic-OS Google Plus for news and more.</string>
+    <string name="cosmic_google_plus_link">https://plus.google.com/communities/116339021564888810193</string>
+    <string name="cosmic_telegram">Telegram</string>
+    <string name="cosmic_telegram_description">Discussion group for Cosmic-OS.</string>
+    <string name="cosmic_telegram_link">https://t.me/cosmicosofficial</string>
+    <string name="cosmic_github">Github</string>
+    <string name="cosmic_github_description">Cosmic-OS source code.</string>
+    <string name="cosmic_github_link">https://github.com/Cosmic-OS/</string>
+
      <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
