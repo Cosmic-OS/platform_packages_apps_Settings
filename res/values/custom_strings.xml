@@ -95,7 +95,7 @@
     <string name="social_header">#EXPLORETHECOSMOS</string>
     <string name="cosmic_web">Website</string>
     <string name="cosmic_web_description">Official Cosmic-OS website for downloads and more.</string>
-    <string name="cosmic_web_link">cosmic-os.me</string>
+    <string name="cosmic_web_link">http://cosmic-os.me</string>
     <string name="cosmic_google_plus">Google Plus</string>
     <string name="cosmic_google_plus_description">Cosmic-OS Google Plus for news and more.</string>
     <string name="cosmic_google_plus_link">https://plus.google.com/communities/116339021564888810193</string>
