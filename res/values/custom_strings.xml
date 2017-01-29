@@ -90,6 +90,8 @@
     <string name="dev14_description">HeroLTE</string>
     <string name="dev_15">Nolan Roell</string>
     <string name="dev15_description">Developer, VS985 Maintainer</string>
+    <string name="dev_16">Kunal Shah</string>
+    <string name="dev16_description">Oneplus2</string>
 
     <!-- Social -->
     <string name="social_header">#EXPLORETHECOSMOS</string>
