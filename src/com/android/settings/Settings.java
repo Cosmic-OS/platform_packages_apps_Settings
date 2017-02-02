@@ -179,4 +179,6 @@ public class Settings extends SettingsActivity {
     public static class SupportDashboardActivity extends SettingsActivity {}
     public static class SMQQtiFeedbackActivity extends SettingsActivity { /* empty */ }
 
+    // Custom additions.
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
