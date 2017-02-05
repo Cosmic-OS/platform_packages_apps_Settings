@@ -92,6 +92,8 @@
     <string name="dev15_description">Developer, VS985 Maintainer</string>
     <string name="dev_16">Kunal Shah</string>
     <string name="dev16_description">Oneplus2</string>
+    <string name="dev_17">Vincent Drtík</string>
+    <string name="dev17_description">LGE G3 Intl (d855)</string>
 
     <!-- Social -->
     <string name="social_header">#EXPLORETHECOSMOS</string>
