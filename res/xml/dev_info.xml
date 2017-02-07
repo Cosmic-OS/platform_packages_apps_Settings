@@ -94,15 +94,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:data="http://forum.xda-developers.com/member.php?u=6548581" />
         </PreferenceScreen>
 
-        <PreferenceScreen
-            android:title="@string/dev_15"
-    android:summary="@string/dev15_description"
-    android:icon="@drawable/ic_devs_pc" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/+NolanRoell" />
-        </PreferenceScreen>
-
 </PreferenceCategory>
 
 
@@ -201,8 +192,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
    </PreferenceScreen>
 
    <PreferenceScreen
-    android:title="@string/dev_16"
-    android:summary="@string/dev16_description"
+    android:title="@string/dev_15"
+    android:summary="@string/dev15_description"
     android:icon="@drawable/ic_devs_phone">
     <intent
 	android:action="android.intent.action.VIEW"
@@ -210,7 +201,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     </PreferenceScreen>
 
     <PreferenceScreen
-     android:title="@string/dev17"
+     android:title="@string/dev_17"
      android:summary="@string/dev17_description"
      android:icon="@drawable/ic_devs_phone">
     <intent
