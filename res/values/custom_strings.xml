@@ -92,6 +92,8 @@
     <string name="dev15_description">OnePlus 2</string>
     <string name="dev_17">Vincent Drtík</string>
     <string name="dev17_description">LGE G3 Intl (d855)</string>
+    <string name="dev_18">Chinmay Gupta</string>
+    <string name="dev18_description">Moto G Turbo Edition (Merlin)</string>
 
     <!-- Social -->
     <string name="social_header">#EXPLORETHECOSMOS</string>
