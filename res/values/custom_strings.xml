@@ -30,6 +30,7 @@
     <string name="header_category_custom">Cosmic-OS Tweaks</string>
     <string name="cosmic_settings_title">Galaxy</string>
     <string name="cosmic_settings_summary">Customize ROM features</string>
+    <string name="appops_settings_summary">Control Apps permissions</string>
 
     <!-- AboutCosmic-OS -->
     <string name="aboutcosmic">About Cosmic-OS</string>
