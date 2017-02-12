@@ -20,6 +20,7 @@
     <string name="supersu_summary">Control root access</string>
     <string name="substratum_title">Substratum</string>
     <string name="substratum_summary">Theme your device</string>
+    <string name="appops_settings_summary">Control Apps permissions</string>
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
