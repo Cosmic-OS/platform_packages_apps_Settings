@@ -14,6 +14,7 @@
      limitations under the License.
 -->
 <resources>
+    <color name="dashboard_background_color">@android:color/transparent</color>
     <!-- Expanded desktop -->
     <drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable>
     <drawable name="expanded_item_bg">@android:color/background_light</drawable>
