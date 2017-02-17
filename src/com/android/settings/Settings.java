@@ -165,5 +165,6 @@ public class Settings extends SettingsActivity {
     // Cosmic-OS Additions.
     public static class SubstratumActivity extends SettingsActivity { /* empty */ }
     public static class SuperSUActivity extends SettingsActivity { /* empty */ }
+    public static class MagiskActivity extends SettingsActivity { /* empty */ }
     public static class CosmicSettingsActivity extends SettingsActivity { /* empty */ }
 }
