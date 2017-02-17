@@ -18,6 +18,8 @@
     <!-- Dashboard -->
     <string name="supersu_title">SuperSU</string>
     <string name="supersu_summary">Control root access</string>
+    <string name="magisk_title">Magisk</string>
+    <string name="magisk_summary">Magisk Manager</string>
     <string name="substratum_title">Substratum</string>
     <string name="substratum_summary">Theme your device</string>
     <string name="appops_settings_summary">Control Apps permissions</string>
