@@ -244,15 +244,6 @@
     <!-- Whether the keyguard will directly pass to PIN entry -->
     <string name="lock_directly_show_pin">Directly show PIN entry</string>
 
-    <!-- Advanced night mode tile -->
-    <string name="night_display_category_advanced">Advanced</string>
-    <string name="qs_night_brightness_value_title">Automatically lower brightness</string>
-    <string name="qs_night_brightness_value_dialog">Automatically set low brightness value when enabling Night Light</string>
-    <string name="qs_night_bright_disabled">Don\'t change brightness</string>
-    <string name="qs_night_bright_less">Set low brightness</string>
-    <string name="qs_night_bright_medium">Set medium brightness</string>
-    <string name="qs_night_bright_min">Set minimum brightness</string>
-
     <!-- Volume Steps -->
     <string name="volume_steps_title">Volume steps</string>
     <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
