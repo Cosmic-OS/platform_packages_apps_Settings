@@ -42,9 +42,9 @@
         <!-- CosmicOTA -->
        <PreferenceScreen android:key="cosmic_ota"
               android:title="@string/cosmic_updater_title">
-          <intent android:action="android.intent.action.MAIN"
-                  android:targetPackage="com.cosmic.ota"
-                  android:targetClass="com.cosmic.ota.MainActivity" />
+             <intent android:action="android.intent.action.MAIN"
+                     android:targetPackage="com.ota.updates"
+                     android:targetClass="com.ota.updates.activities.MainActivity" />
        </PreferenceScreen>
 
         <!-- Device status - launches activity -->
