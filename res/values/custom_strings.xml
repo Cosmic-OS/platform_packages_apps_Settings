@@ -127,6 +127,8 @@
     <string name="dev18_description">Moto G Turbo Edition (Merlin)</string>
     <string name="dev_19">Michael Albert</string>		
     <string name="dev19_description">Samsung Galaxy S5 (KLTE)</string>
+    <string name="dev_20">SoUnd001</string>
+    <string name="dev20_description">Samsung Galaxy J5</string>
 
     <!-- Social -->
     <string name="social_header">#EXPLORETHECOSMOS</string>
