@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016 Cosmic-OS Project
+     Copyright (C) 2016-2017 Cosmic-OS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -353,6 +353,9 @@
    <!-- Force authorize substratum packages -->
    <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
    <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
+
+    <!-- Custom width -->
+    <string name="custom_density_display">Custom density</string>
 
     <!-- Doze options -->
     <string name="display_category_doze_options_title">Ambient display (doze) options</string>
