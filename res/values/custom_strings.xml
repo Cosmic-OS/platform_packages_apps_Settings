@@ -385,6 +385,9 @@
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_medium">Medium brightness</string>
 
+    <!-- Custom width -->
+    <string name="custom_density_display">Custom density</string>
+
     <!-- Doze options -->
     <string name="display_category_doze_options_title">Ambient display (doze) options</string>
     <string name="doze_settings_title">Advanced doze options</string>
