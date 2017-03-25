@@ -58,17 +58,17 @@
 
     <!-- About Cosmic-OS -->
     <string name="cosmic_about_info">About Cosmic-OS</string>
-    <string name="cosmic_about_info_summary">Cosmic-OS is an AOSP-based custom ROM with full Substratum support, The aim of this ROM is to deliver light-speed performance with plenty of features, a high level of fluidity, and good battery life. We hope that you\'ll love our work, and help us in making it even better in the future.</string>
+    <string name="cosmic_about_info_summary">Cosmic-OS is an AOSP-based custom ROM with full Substratum support. The aim of this ROM is to deliver light-speed performance with plenty of features, a high level of fluidity, and good battery life. We hope that you\'ll love our work, and help us in making it even better in the future.</string>
     <string name="dev_info">About Cosmic-OS</string>
     <string name="mention">Honorable Mentions</string>
     <string name="devs_header">Developers</string>
-    <string name="dev_1">Sagar Shah &#40;sagarshah1729&#41;</string>
+    <string name="dev_1">Sagar Shah (sagarshah1729)</string>
     <string name="dev1_description">Founder/Developer, Yu Yuphoria (lettuce) Maintainer</string>
     <string name="dev_2">Hriday Sharma</string>
     <string name="dev2_description">Project Contributor</string>
-    <string name="dev_3">Aditya Upreti &#40;aditheking&#41;</string>
-    <string name="dev3_description">Co-Founder/Developer, OnePlus 3 Maintainer</string>
-    <string name="dev_4">Harsh Shandiliya &#40;MSFJarvis&#41;</string>
+    <string name="dev_3">Aditya Upreti (aditheking)</string>
+    <string name="dev3_description">Co-Founder/Project Contributor</string>
+    <string name="dev_4">Harsh Shandiliya (MSFJarvis)</string>
     <string name="dev4_description">Project Contributor</string>
     <string name="maintainers_header">Maintainers</string>
     <string name="dev_5">Rohit Negi</string>
@@ -79,9 +79,9 @@
     <string name="dev7_description">Moto G3 (osprey)</string>
     <string name="dev_8">Abhiram Shibu</string>
     <string name="dev8_description">Yu Yureka (tomato)</string>
-    <string name="dev_9">Kshitij Gupta &#40;Agent_fabulous&#41;</string>
-    <string name="dev9_description">OnePlus One (bacon)</string>
-    <string name="dev_10">Gopinaidu Annam &#40;gopinaidu77&#41; </string>
+    <string name="dev_9">Kshitij Gupta (Agent_fabulous)</string>
+    <string name="dev9_description">Developer, OnePlus One (bacon) Maintainer</string>
+    <string name="dev_10">Gopinaidu Annam (gopinaidu77) </string>
     <string name="dev10_description">Honor 5X (kiwi)</string>
     <string name="dev_11">Nico Franke</string>
     <string name="dev11_description">OnePlus X (onyx)</string>
@@ -92,17 +92,15 @@
     <string name="dev_14">Diazz72</string>
     <string name="dev14_description">Samsung Galaxy S7 (HeroLTE)</string>
     <string name="dev_15">Kunal Shah</string>
-    <string name="dev15_description">OnePlus 2</string>
-    <string name="dev_17">Vincent Drtík</string>
-    <string name="dev17_description">LG G2 (d802), LG G3 (d855), LG G4 (h815)</string>
-    <string name="dev_18">Chinmay Gupta</string>
-    <string name="dev18_description">Moto G Turbo Edition (Merlin)</string>
-    <string name="dev_19">Michael Albert</string>		
-    <string name="dev19_description">Samsung Galaxy S5 (KLTE)</string>
-    <string name="dev_20">SoUnd001</string>
-    <string name="dev20_description">Samsung Galaxy J5</string>
-    <string name="dev_21">Silv3r79</string>
-    <string name="dev21_description">Zuk Z2</string>
+    <string name="dev15_description">OnePlus 2 (oneplus2)</string>
+    <string name="dev_16">Chinmay Gupta</string>
+    <string name="dev16_description">Moto G Turbo Edition (Merlin)</string>
+    <string name="dev_17">Michael Albert</string>		
+    <string name="dev17_description">Samsung Galaxy S5 (KLTE)</string>
+    <string name="dev_18">SoUnd001</string>
+    <string name="dev18_description">Samsung Galaxy J5 (J500F/J500FN)</string>
+    <string name="dev_19">Silv3r79</string>
+    <string name="dev19_description">Zuk Z2 (z2_plus)</string>
 
     <!-- Social -->
     <string name="social_header">#EXPLORETHECOSMOS</string>
