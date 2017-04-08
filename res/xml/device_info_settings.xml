@@ -18,14 +18,12 @@
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/about_settings">
 
-	<!-- Cosmic-OS logo -->
-        <PreferenceScreen android:key="cos_logo"
-                android:enabled="false"
-                android:layout="@layout/cos_about_logo">
-        <intent android:action="android.intent.action.VIEW"
-                android:data="https://github.com/Cosmic-OS/" />
-        </PreferenceScreen>
-
+        <!-- Mod version -->
+        <Preference android:key="mod_version"
+             style="?android:preferenceInformationStyle"
+             android:title="@string/mod_version"
+             android:summary="@string/mod_version_default"
+             android:icon="@drawable/cos_mod_version_icon"/>
 
         <!-- About Devs -->
         <PreferenceScreen
@@ -94,17 +92,6 @@
                 android:summary="@string/device_info_default"
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
-
-        <!-- Mod version -->
-        <com.android.settings.DividerPreference
-                android:key="mod_version"
-                android:enabled="false"
-                android:shouldDisableView="false"
-                android:selectable="false"
-                android:title="@string/mod_version"
-                android:summary="@string/mod_version_default"
-                settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true" />
 
         <!-- Device hardware processor -->
         <com.android.settings.DividerPreference
@@ -190,7 +177,7 @@
                 android:shouldDisableView="false"
                 android:selectable="false"
                 android:title="@string/build_date"
-                android:summary="@string/build_date_default" 
+                android:summary="@string/build_date_default"
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true" />
 
