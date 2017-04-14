@@ -129,6 +129,8 @@
     <string name="dev18_description">Samsung Galaxy J5 (J500F/J500FN)</string>
     <string name="dev_19">Silv3r79</string>
     <string name="dev19_description">Zuk Z2 (z2_plus)</string>
+    <string name="dev_20">Rohit Nayak, MadaaN</string>
+    <string name="dev20_description">Samsung Galaxy S5 (K3GXX)</string>
 
     <!-- Social -->
     <string name="social_header">#EXPLORETHECOSMOS</string>
