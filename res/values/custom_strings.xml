@@ -131,7 +131,9 @@
     <string name="dev19_description">Zuk Z2 (z2_plus)</string>
     <string name="dev_20">Rohit Nayak, MadaaN</string>
     <string name="dev20_description">Samsung Galaxy S5 (K3GXX)</string>
-
+    <string name="dev_21">Mr.Thaker</string>
+    <string name="dev21_description">Lenovo A6000</string>
+     
     <!-- Social -->
     <string name="social_header">#EXPLORETHECOSMOS</string>
     <string name="cosmic_web">Website</string>
