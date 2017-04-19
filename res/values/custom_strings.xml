@@ -105,6 +105,8 @@
     <string name="dev20_description">Samsung Galaxy S5 (K3GXX)</string>
     <string name="dev_21">Mr.Thaker</string>
     <string name="dev21_description">Lenovo A6000</string>
+    <string name="dev_22">Ganesh Varma</string>
+    <string name="dev22_description">Lenovo Vibe K4 Note (A7010a48)</string>
      
     <!-- Social -->
     <string name="social_header">#EXPLORETHECOSMOS</string>
