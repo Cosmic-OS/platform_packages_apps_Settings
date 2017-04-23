@@ -254,6 +254,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 	android:data="https://forum.xda-developers.com/member.php?u=7138840" />
     </PreferenceScreen>
 	
+    <PreferenceScreen
+     android:title="@string/dev_23"
+     android:summary="@string/dev23_description"
+     android:icon="@drawable/ic_devs_phone">
+    <intent
+        android:action="android.intent.action.VIEW"
+	android:data="https://forum.xda-developers.com/member.php?u=6940293" />
+    </PreferenceScreen>
+
 </PreferenceCategory>
 
 <PreferenceCategory

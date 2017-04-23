@@ -107,7 +107,9 @@
     <string name="dev21_description">Lenovo A6000</string>
     <string name="dev_22">Ganesh Varma</string>
     <string name="dev22_description">Lenovo Vibe K4 Note (A7010a48)</string>
-     
+    <string name="dev_23">Hassan Sardar (Has.007)</string>
+    <string name="dev23_description">Samsung Galaxy Grand Prime (fortuna3g/fortunave3g/fortunafz)</string>
+
     <!-- Social -->
     <string name="social_header">#EXPLORETHECOSMOS</string>
     <string name="cosmic_web">Website</string>
