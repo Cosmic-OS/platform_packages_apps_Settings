@@ -136,7 +136,9 @@
     <string name="dev22_description">Lenovo Vibe K4 Note (A7010a48)</string>
     <string name="dev_23">Hassan Sardar (Has.007)</string>
     <string name="dev23_description">Samsung Galaxy Grand Prime (fortuna3g/fortunave3g/fortunafz)</string>
-
+    <string name="dev_24">Iacob Ionut</string>
+    <string name="dev_24_description">Gionee S Plus (splus/v2_viper_x)</string>
+     
     <!-- Social -->
     <string name="social_header">#EXPLORETHECOSMOS</string>
     <string name="cosmic_web">Website</string>
