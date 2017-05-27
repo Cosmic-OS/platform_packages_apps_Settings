@@ -512,7 +512,7 @@ public class ManageApplications extends InstrumentedPreferenceFragment
             case LIST_TYPE_PHOTOGRAPHY:
                 return mSortOrder == R.id.sort_order_alpha;
             default:
-                return false;
+                return true;
         }
     }
 
@@ -1190,7 +1190,7 @@ public class ManageApplications extends InstrumentedPreferenceFragment
         }
 
         private void rebuildSections() {
-            if (mEntries != null && mManageApplications.mListView.isFastScrollEnabled()) {
+            if (mEntries != null && mManageApplications.isFastScrollEnabled()) {
                 // Rebuild sections
                 if (mIndex == null) {
                     LocaleList locales = mContext.getResources().getConfiguration().getLocales();
