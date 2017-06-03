@@ -263,7 +263,6 @@ public class SettingsActivity extends SettingsDrawerActivity
             //custom_section
             CosmicSettings.class.getName(),
             //device_section
-            Settings.ButtonsSettingsActivity.class.getName(),
             Settings.HomeSettingsActivity.class.getName(),
             Settings.SoundSettingsActivity.class.getName(),
             Settings.DisplaySettingsActivity.class.getName(),
@@ -386,7 +385,6 @@ public class SettingsActivity extends SettingsDrawerActivity
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
-            ButtonsSettings.class.getName(),
             CosmicSettings.class.getName()
     };
 
