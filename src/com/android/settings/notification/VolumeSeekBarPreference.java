@@ -88,10 +88,9 @@ public class VolumeSeekBarPreference extends SeekBarPreference {
         mStopped = true;
         if (mVolumizer != null) {
             mVolumizer.stop();
-            mVolumizer = null;
         }
     }
-
+    
     @Override
     public void onBindViewHolder(PreferenceViewHolder view) {
         super.onBindViewHolder(view);
