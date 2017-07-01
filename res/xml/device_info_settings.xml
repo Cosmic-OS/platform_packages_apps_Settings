@@ -32,7 +32,7 @@
             android:summary="@string/aboutcosmic_summary">
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.cosmicos.aboutcosmic_os"
-                    android:targetClass="com.cosmicos.aboutcosmic_os.MainActivity" />
+                    android:targetClass="com.cosmicos.aboutcosmic_os.ScrollingActivity" />
         </PreferenceScreen>
 
         <!-- CosmicOTA -->
