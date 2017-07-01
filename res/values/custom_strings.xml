@@ -31,6 +31,10 @@
     <string name="cosmic_settings_title">Galaxy</string>
     <string name="cosmic_settings_summary">Customize ROM features</string>
 
+    <!-- AboutCosmic-OS -->
+    <string name="aboutcosmic">About Cosmic-OS</string>
+    <string name="aboutcosmic_summary">Get to know about us!</string>
+
     <!-- CosmicOTA -->
     <string name="cosmic_updater_title">Software Updates</string> 
 

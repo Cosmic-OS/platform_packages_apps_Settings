@@ -25,6 +25,16 @@
              android:summary="@string/mod_version_default"
              android:icon="@drawable/cos_mod_version_icon"/>
 
+        <!-- About Cosmic-OS -->
+        <PreferenceScreen
+            android:key="aboutcosmic"
+            android:title="@string/aboutcosmic"
+            android:summary="@string/aboutcosmic_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.cosmicos.aboutcosmic_os"
+                    android:targetClass="com.cosmicos.aboutcosmic_os.MainActivity" />
+        </PreferenceScreen>
+
         <!-- CosmicOTA -->
        <PreferenceScreen android:key="cosmic_ota"
               android:title="@string/cosmic_updater_title">
