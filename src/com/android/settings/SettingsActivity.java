@@ -144,6 +144,7 @@ import com.cosmic.settings.fragments.FlingSettings;
 import com.cosmic.settings.fragments.NavbarSettings;
 import com.cosmic.settings.fragments.SmartbarSettings;
 import com.cosmic.settings.fragments.PulseSettings;
+import com.android.settings.cosmic.ExpandedDesktop;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -397,7 +398,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
-            PulseSettings.class.getName()
+            PulseSettings.class.getName(),
+            ExpandedDesktop.class.getName()
     };
 
 
