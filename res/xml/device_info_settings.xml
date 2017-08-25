@@ -90,6 +90,12 @@
                 android:title="@string/fcc_equipment_id"
                 android:summary="@string/device_info_default"/>
 
+        <!-- Cosmic-OS version -->
+        <Preference
+		android:key="cosmic_version"
+                android:title="@string/cosmic_version"
+                android:summary="@string/cosmic_version_default" />
+
         <!-- Device Baseband version -->
         <Preference
                 android:key="baseband_version"
