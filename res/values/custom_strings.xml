@@ -36,6 +36,10 @@
    <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
 
+<!-- Cosmic Settings -->
+    <string name="cosmic_settings_title">Galaxy</string>
+    <string name="cosmic_settings_summary">Additional settings</string>
+
 <!-- General Settings -->
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
