@@ -34,6 +34,10 @@
     <!-- Okay we get it, stop pressing, you already have it on -->
     <string name="show_dev_already_custom">Developer options already enabled!</string>
 
+<!-- Cosmic Settings -->
+    <string name="cosmic_settings_title">Galaxy</string>
+    <string name="cosmic_settings_summary">Additional settings</string>
+
 <!-- Development Settings -->
     <!-- ADB debugging notifications -->
     <string name="enable_adb_custom">Android debugging</string>
