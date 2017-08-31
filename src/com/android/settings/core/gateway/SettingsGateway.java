@@ -140,6 +140,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.android.settings.custom.ambient.history.AmbientPlayHistory;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
+import com.cosmic.settings.CosmicSettings;
+
 public class SettingsGateway {
 
     /**
@@ -265,6 +267,7 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
+            CosmicSettings.class.getName(),
             AmbientPlayHistory.class.getName(),
             LiveDisplaySettings.class.getName(),
     };
@@ -305,5 +308,6 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
+            Settings.CosmicSettingsActivity.class.getName(),
     };
 }

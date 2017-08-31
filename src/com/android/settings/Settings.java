@@ -172,4 +172,6 @@ public class Settings extends SettingsActivity {
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 
+    // Cosmic-OS
+    public static class CosmicSettingsActivity extends SettingsActivity {}
 }

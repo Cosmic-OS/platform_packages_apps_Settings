@@ -38,24 +38,24 @@ public class BuildNumberDialogController {
         mDialog = dialog;
     }
 
-    private String getPixelExperienceVersion(){
-        String buildDate = SystemProperties.get("org.pixelexperience.build_date","");
-        String buildType = SystemProperties.get("org.pixelexperience.build_type","unofficial").toUpperCase();
-        return buildDate.equals("") ? "" : "PixelExperience-" + buildDate + "-" + buildType;
+    private String getCosmicVersion(){
+        String buildDate = SystemProperties.get("ro.cos.build_date","");
+        String buildType = SystemProperties.get("ro.cos.build_type","unofficial").toUpperCase();
+        return buildDate.equals("") ? "" : "Cosmic-OS-" + buildDate + "-" + buildType;
     }
 
     /**
      * Updates the build number to the dialog.
      */
     public void initialize() {
-        
+
         StringBuilder sb = new StringBuilder();
         sb.append(BidiFormatter.getInstance().unicodeWrap(
                 TextUtils.isEmpty(Build.VENDOR.BUILD_NUMBER_OVERRIDE) ? Build.DISPLAY : Build.VENDOR.BUILD_NUMBER_OVERRIDE));
-        String pixelExperienceVersion = getPixelExperienceVersion();
-        if (!pixelExperienceVersion.equals("")){
+        String CosmicVersion = getCosmicVersion();
+        if (!CosmicVersion.equals("")){
             sb.append("\n");
-            sb.append(pixelExperienceVersion);
+            sb.append(CosmicVersion);
         }
         sb.append("\n");
         sb.append(DeviceModelPreferenceController.getDeviceModel());

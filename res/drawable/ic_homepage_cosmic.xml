@@ -1,0 +1,13 @@
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape android:shape="oval">
+        <solid android:color="#921ce1" />
+        <size android:height="36dp"
+            android:width="36dp" />
+    </shape>
+    </item>
+    <item
+        android:height="36dp" android:width="36dp"
+        android:drawable="@drawable/ic_settings_cosmic" />
+</layer-list>
