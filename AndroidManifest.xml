@@ -3292,6 +3292,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.cosmic.settings.fragments.HAFRAppListActivity" />
+
         <!-- This is the longest AndroidManifest.xml ever. -->
         <activity android:name=".Settings$CosmicSettingsActivity"
                   android:label="@string/cosmic_settings_title"
