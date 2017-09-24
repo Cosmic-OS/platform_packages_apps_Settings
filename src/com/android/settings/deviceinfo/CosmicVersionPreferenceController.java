@@ -27,7 +27,7 @@ import com.android.settings.core.PreferenceController;
 public class CosmicVersionPreferenceController extends PreferenceController {
 
 
-    private static final String PROPERTY_COSMIC_VERSION = "ro.cosmic.version";
+    private static final String PROPERTY_COSMIC_VERSION = "ro.cos.version";
     private static final String KEY_COSMIC_VERSION = "cosmic_version";
 
     public CosmicVersionPreferenceController(Context context) {
