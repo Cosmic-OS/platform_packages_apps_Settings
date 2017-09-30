@@ -133,6 +133,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.cosmic.settings.CosmicSettings;
+import com.cosmic.settings.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -255,7 +256,8 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
-            CosmicSettings.class.getName()
+            CosmicSettings.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
