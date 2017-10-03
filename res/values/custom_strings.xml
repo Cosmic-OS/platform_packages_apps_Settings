@@ -23,6 +23,16 @@
    <!-- System Updates -->
     <string name="cosmic_updater_title">System Updates</string> 
 
+    <!-- Countdown for user taps to enable development settings -->
+    <plurals name="show_dev_countdown_custom">
+        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling developer options.</item>
+        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling developer options.</item>
+    </plurals>
+    <!-- Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_custom">Developer options enabled! Be careful!</string>
+    <!-- Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_custom">Developer options already enabled!</string>
+
    <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
 
