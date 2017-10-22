@@ -190,4 +190,7 @@ name="app_ops_access_notifications">notifications</string>
     <string name="ok">Ok</string>
     <string name="menu_stats_reset">Reset stats</string>
     <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
 </resources>
