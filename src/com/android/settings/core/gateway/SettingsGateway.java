@@ -134,6 +134,10 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.cosmic.settings.CosmicSettings;
 import com.cosmic.settings.fragments.HeadsUpSettings;
+import com.cosmic.settings.fragments.FlingSettings;
+import com.cosmic.settings.fragments.NavbarSettings;
+import com.cosmic.settings.fragments.PulseSettings;
+import com.cosmic.settings.fragments.SmartbarSettings;
 
 public class SettingsGateway {
 
@@ -258,6 +262,10 @@ public class SettingsGateway {
             DataUsageList.class.getName(),
             CosmicSettings.class.getName(),
             HeadsUpSettings.class.getName(),
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -296,5 +304,9 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.CosmicSettingsActivity.class.getName(),
+            Settings.NavigationSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName()
     };
 }
