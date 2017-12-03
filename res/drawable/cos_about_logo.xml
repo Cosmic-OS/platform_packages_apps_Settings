@@ -13,5 +13,4 @@
 -->
 
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
-    android:src="@drawable/cos_logo_alpha"
-    android:tint="?android:attr/colorAccent" />
+    android:src="@drawable/cos_logo_alpha" />
