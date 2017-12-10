@@ -20,6 +20,9 @@
     <string name="cosmic_version">Cosmic-OS version</string>
     <string name="cosmic_version_default">Unknown</string>
 
+   <!-- System Updates -->
+    <string name="cosmic_updater_title">System Updates</string> 
+
    <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
 
