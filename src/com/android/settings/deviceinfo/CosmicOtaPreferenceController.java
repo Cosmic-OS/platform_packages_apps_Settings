@@ -50,7 +50,7 @@ public class CosmicOtaPreferenceController extends AbstractPreferenceController 
     @Override
     public boolean isAvailable() {
      String buildtype = SystemProperties.get("ro.cos.releasetype","unofficial");
-      if (Utils.isPackageInstalled(mContext, KEY_COSMICOTA_PACKAGE_NAME) && (buildtype.equalsIgnoreCase("official") || buildtype.equalsIgnoreCase("beta"))) {
+      if (Utils.isPackageInstalled(mContext, KEY_COSMICOTA_PACKAGE_NAME) && (buildtype.equalsIgnoreCase("official") || buildtype.equalsIgnoreCase("biweekly"))) {
         return mUm.isAdminUser();
 
     } else {
