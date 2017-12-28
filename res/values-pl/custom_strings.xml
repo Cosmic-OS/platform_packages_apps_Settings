@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Copyright (C) 2017 Cosmic-OS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Cosmic-OS version -->
+    <string name="cosmic_version">Wersja Cosmic-OS</string>
+    <string name="cosmic_version_default">Nieznana</string>
+
+   <!-- System Updates -->
+    <string name="cosmic_updater_title">Aktualizacje</string> 
+
+    <!-- Countdown for user taps to enable development settings -->
+    <plurals name="show_dev_countdown_custom">
+        <item quantity="one">Jesteś o <xliff:g id="step_count">%1$d</xliff:g> krok od włączenia ustawień programisty.</item>
+        <item quantity="other">Jesteś <xliff:g id="step_count">%1$d</xliff:g> kroków od włączenia ustawień programisty.</item>
+    </plurals>
+    <!-- Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_custom">Aktywowałeś opcje programistyczne!</string>
+
+    <!-- Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_custom">Wystarczy, już jesteś programistą.</string>
+
+   <!-- Phone info shortcut -->
+    <string name="device_info_title">Informacje o telefonie</string>
+
+<!-- Cosmic Settings -->
+    <string name="cosmic_settings_title">Galaxy</string>
+    <string name="cosmic_settings_summary">Dodatkowe ustawienia</string>
+
+<!-- General Settings -->
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- MediaScanner behavior on boot -->
+    <string name="options_settings_title">Opcje</string>
+    <string name="media_scanner_on_boot_title">Zachowanie MediaScanner podczas rozruchu</string>
+    <string name="media_scanner_on_boot_enabled">Skanuj media</string>
+    <string name="media_scanner_on_boot_ask">Zapytaj o skan (powiadomienie)</string>
+    <string name="media_scanner_on_boot_disabled">Nie skanuj mediów</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Wymieszany układ</string>
+    <string name="unlock_scramble_pin_layout_summary">Wymieszaj układ cyfr podczas podawania odblokowywania ekranu</string>
+
+    <!-- Quick unlock -->
+   <string name="unlock_quick_unlock_control_title">Szybkie odblokowanie</string>
+   <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, gdy PIN/hasło jest poprawne</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Jasność</string>
+    <string name="night_brightness_value_title">Zmniejsz jasność, gdy podświetlnie nocne jest włączone</string>
+    <string name="night_bright_disabled">Wyłączone</string>
+    <string name="night_bright_minimum">Minimalna jasność</string>
+    <string name="night_bright_low">Słaba jasność</string>
+    <string name="night_bright_medium">Średnia jasność</string>
+
+    <!-- Dashboard Conditions -->
+    <string name="dashboard_conditions_title">Dashboard conditions</string>
+    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
+    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
+
+    <!-- Themes -->
+    <string name="system_theme_style_title">Styl motywu systemowego</string>
+    <string name="system_theme_style_auto">Bazujący na tapecie</string>
+    <string name="system_theme_style_light">Jasny motyw</string>
+    <string name="system_theme_style_dark">Ciemny motyw</string>
+
+    <!-- Reset battery stats -->
+    <string name="ok">Ok</string>
+    <string name="menu_stats_reset">Zresetuj statystyki</string>
+    <string name="reset_stats_msg">Statystyki baterii zostaną zresetowane</string>
+</resources>
