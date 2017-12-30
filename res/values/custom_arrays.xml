@@ -155,7 +155,7 @@
         <!-- OP_MONITOR_HIGH_POWER_LOCATION -->
         <item>@string/app_ops_access_location</item>
         <!-- OP_GET_USAGE_STATS -->
-        <item>@string/app_ops_get_usage_stats</item> </resources>
+        <item>@string/app_ops_get_usage_stats</item>
         <!-- OP_MUTE_MICROPHONE -->
         <item>@string/app_ops_mute_unmute_microphone</item>
         <!-- OP_TOAST_WINDOW -->
