@@ -77,6 +77,7 @@
     <string name="system_theme_style_auto">Wallpaper based</string>
     <string name="system_theme_style_light">Light style</string>
     <string name="system_theme_style_dark">Dark style</string>
+    <string name="system_theme_style_black">Black style</string>
 
     <!-- Custom light color -->
     <string name="light_customization">Led light notification</string>
