@@ -50,6 +50,12 @@
             android:key="ambient_display_custom"
             android:title="@string/advanced_settings" />
 
-    </PreferenceCategory>
+        <ListPreference
+            android:key="force_ambient_for_media"
+            android:title="@string/force_ambient_for_media_pref_title"
+            android:entries="@array/force_ambient_for_media_entries"
+            android:entryValues="@array/force_ambient_for_media_values"
+            android:persistent="false" />
 
+    </PreferenceCategory>
 </PreferenceScreen>
