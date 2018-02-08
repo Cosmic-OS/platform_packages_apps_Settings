@@ -82,7 +82,6 @@
     <string name="light_customization">LED灯的通知</string>
     <string name="custom_light_title">颜色</string>
     <string name="custom_light_on_time_title">LED脉冲时的开启时间 (ms)</string>
-    <string name="custom_light_off_time_title">LED脉冲时的关闭时间 (ms)"</string>
     <string name="custom_light_off_time_title">点击上面的一个选项来配置他们的灯色和其他选项。</string>
     <string name="value_equals_default">默认</string>
     <string name="show_light_on_zen_title">勿扰模式开启</string>
