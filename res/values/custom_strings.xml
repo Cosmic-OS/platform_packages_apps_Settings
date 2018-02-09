@@ -221,7 +221,7 @@ name="app_ops_access_notifications">notifications</string>
     <string name="sub_activate_success">SIM activated.</string>
     <string name="sub_activate_failed">Activation failed.</string>
     <string name="sub_deactivate_success">SIM deactivated.</string>
-    <string name="sub_deactivate_failed">Deactivation failed.</string>l
+    <string name="sub_deactivate_failed">Deactivation failed.</string>
     <string name="available_sims_title">Available SIM cards</string>
 
     <!-- Root Management -->
