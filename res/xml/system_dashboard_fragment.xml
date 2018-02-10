@@ -42,8 +42,8 @@
         android:icon="@drawable/ic_system_update"
         android:order="-30">
         <intent android:action="android.intent.action.MAIN" 
-                android:targetPackage="com.ota.updates" 
-                android:targetClass="com.ota.updates.activities.MainActivity" />
+                android:targetPackage="org.os.cosmic_os" 
+                android:targetClass="org.os.cosmic_os.MainActivity" />
     </Preference>
 
     <Preference
