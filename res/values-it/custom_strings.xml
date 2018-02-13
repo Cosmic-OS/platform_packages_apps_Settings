@@ -211,4 +211,5 @@
     <string name="sub_activate_failed">Attivazione fallita.</string>
     <string name="sub_deactivate_success">SIM disattivata.</string>
     <string name="sub_deactivate_failed">Disattivazione fallita.</string>
+    <string name="available_sims_title">SIM disponibile</string>
 </resources>
