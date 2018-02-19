@@ -212,4 +212,18 @@
     <string name="sub_deactivate_success">SIM disattivata.</string>
     <string name="sub_deactivate_failed">Disattivazione fallita.</string>
     <string name="available_sims_title">SIM disponibile</string>
+     
+    <!-- Root Management -->
+    <string name="rootmanagement_title">Gestione Root</string>
+    <string name="rootmanagement_dashboard_summary">Gestisci l\'accesso root</string>
+
+    <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+    <string name="supersu_title">SuperSU</string>
+ 
+    <string name="force_ambient_for_media_pref_title">Ticker Ambient musicale</string>
+    <string name="force_ambient_for_media_off">Disabilitato</string>
+    <string name="force_ambient_for_media_on">Abilitato</string>
+    <string name="force_ambient_for_media_on_forced">Normale e forzato</string>
+    <string name="force_ambient_for_media_on_forced_clean">Abilitato e forzato minimo</string>
+    <string name="ambient_ticker_footer">Questa funzionalità da la possibilità di visualizzare l\'attuale canzone sulla schermata di blocco con o senza Ambient Display abilitato.\n\nPuoi scegliere tra due disposizioni, normale e minimale. Questa funzionalità sfrutta l\'Ambient Display ma essa non dipende da quest\'ultimo. Può essere attivata senza avere Ambient Display abilitato utilizzando l\'opzione (forzata).\n\nLa visualizzazione Normale include l\'orologio della schermata di blocco, la data e il quadrante.\n\nLa visualizzazione Minimale include solo il quadrante al centro dello schermo.</string>
 </resources>
