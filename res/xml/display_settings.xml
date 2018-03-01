@@ -142,4 +142,12 @@
         android:summaryOn="@string/summary_dashboard_conditions_enabled"
         android:summaryOff="@string/summary_dashboard_conditions_disabled"
         android:defaultValue="true" />
+
+        <com.android.settings.display.FontDialogPreference
+            android:key="custom_font"
+            android:title="@string/font_picker_title"
+            android:persistent="false" />
+
+   
+
 </PreferenceScreen>
