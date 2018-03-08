@@ -120,6 +120,11 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+    <com.cosmic.settings.preferences.SystemSettingSwitchPreference
+        android:key="proximity_on_wake"
+        android:title="@string/proximity_wake_title"
+        android:summary="@string/proximity_wake_summary" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
@@ -144,3 +149,4 @@
         android:summaryOff="@string/summary_dashboard_conditions_disabled"
         android:defaultValue="true" />
 </PreferenceScreen>
+
