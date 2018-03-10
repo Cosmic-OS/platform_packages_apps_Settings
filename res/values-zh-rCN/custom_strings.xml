@@ -17,8 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Cosmic-OS version -->
-    <string name="cosmic_version">Cosmic-OS version</string>
-    <string name="cosmic_version_default">Unknown</string>
+    <string name="cosmic_version">Cosmic-OS版本</string>
+    <string name="cosmic_version_default">未知</string>
 
    <!-- System Updates -->
     <string name="cosmic_updater_title">系统升级</string> 
@@ -68,9 +68,9 @@
     <string name="night_bright_medium">中等亮度</string>
 
     <!-- Dashboard Conditions -->
-    <string name="dashboard_suggestions_title">设置面板的建议</string>
-    <string name="summary_dashboard_suggestions_enabled">设置面板的建议已开启</string>
-    <string name="summary_dashboard_suggestions_disabled">设置面板的建议已关闭</string>
+    <string name="dashboard_suggestions_title">设置面板建议</string>
+    <string name="summary_dashboard_suggestions_enabled">设置面板建议已开启</string>
+    <string name="summary_dashboard_suggestions_disabled">设置面板建议已关闭</string>
 
     <!-- Themes -->
 	<string name="system_theme_style_title">系统主题</string>
@@ -219,4 +219,19 @@
     <string name="sub_activate_failed">激活失败</string>
     <string name="sub_deactivate_success">SIM卡已停用</string>
     <string name="sub_deactivate_failed">停用失败</string>
+    <string name="available_sims_title">可用的SIM卡</string>
+
+    <!-- Root Management -->
+    <string name="rootmanagement_title">Root权限管理</string>
+    <string name="rootmanagement_dashboard_summary">管理你的Root权限</string>
+
+    <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+    <string name="supersu_title">SuperSU</string>
+ 
+    <string name="force_ambient_for_media_pref_title">环境音乐显示</string>
+    <string name="force_ambient_for_media_off">不显示</string>
+    <string name="force_ambient_for_media_on">正常显示</string>
+    <string name="force_ambient_for_media_on_forced">强制正常显示</string>
+    <string name="force_ambient_for_media_on_forced_clean">强制最小化显示</string>
+    <string name="ambient_ticker_footer">环境音乐显示允许您在锁屏上显示当前音乐曲目信息，无论是否启用环境音乐显示。您可以从两种布局中选择，普通和最小。 虽然此功能利用了环境显示，但不依赖于它。</string>
 </resources>
