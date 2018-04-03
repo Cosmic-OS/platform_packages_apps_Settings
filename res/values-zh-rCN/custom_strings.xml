@@ -77,6 +77,7 @@
     <string name="system_theme_style_auto">取决壁纸</string>
     <string name="system_theme_style_light">亮色主题</string>
     <string name="system_theme_style_dark">暗色主题</string>
+    <string name="system_theme_style_black">黑色主题</string>
 
     <!-- Custom light color -->
     <string name="light_customization">LED灯的通知</string>
