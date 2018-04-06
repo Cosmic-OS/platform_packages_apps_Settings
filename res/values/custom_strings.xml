@@ -100,8 +100,7 @@
     <!-- [CHAR LIMIT=NONE] App ops labels -->
     <string name="app_ops_access_camera">camera</string>
     <string name="app_ops_access_location">location</string>
-    <string 
-name="app_ops_access_notifications">notifications</string>
+    <string name="app_ops_access_notifications">notifications</string>
     <string name="app_ops_activate_vpn">VPN</string>
     <string name="app_ops_auto_start">autostart</string>
     <string name="app_ops_delete_call_log">delete call log</string>
@@ -238,4 +237,3 @@ name="app_ops_access_notifications">notifications</string>
     <string name="force_ambient_for_media_on_forced_clean">Enabled and forced minimal</string>
     <string name="ambient_ticker_footer">Ambient Music Ticker allows for the ability to show the current music track info on the lockscreen with or without Ambient display enabled.\nYou can select from two layouts, normal and minimal. While this feature takes advantage of ambient display, it does not depend on it.</string>
 </resources>
-
