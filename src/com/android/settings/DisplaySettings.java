@@ -16,7 +16,12 @@
 
 package com.android.settings;
 
+import android.app.Fragment;
+import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.os.Bundle;
 import android.provider.SearchIndexableResource;
 
 import com.android.internal.hardware.AmbientDisplayConfiguration;
@@ -59,6 +64,41 @@ public class DisplaySettings extends DashboardFragment {
     private static final String KEY_AMBIENT_DISPLAY = "ambient_display";
     private static final String KEY_AUTO_BRIGHTNESS = "auto_brightness_entry";
     private static final String KEY_NIGHT_DISPLAY = "night_display";
+
+    private IntentFilter mIntentFilter;
+    private static FontPickerPreferenceController mFontPickerPreference;
+
+    private BroadcastReceiver mIntentReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            if (action.equals("com.android.server.ACTION_FONT_CHANGED")) {
+                mFontPickerPreference.stopProgress();
+            }
+        }
+    };
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mIntentFilter = new IntentFilter();
+        mIntentFilter.addAction("com.android.server.ACTION_FONT_CHANGED");
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        final Context context = getActivity();
+        context.registerReceiver(mIntentReceiver, mIntentFilter);
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        final Context context = getActivity();
+        context.unregisterReceiver(mIntentReceiver);
+        mFontPickerPreference.stopProgress();
+    }
 
     @Override
     public int getMetricsCategory() {
@@ -107,7 +147,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ThemePreferenceController(context));
 	controllers.add(new QsHeaderStylePreferenceController(context));
         controllers.add(new SwitchStylePreferenceController(context));
-        controllers.add(new FontPickerPreferenceController(context, lifecycle, fragment));
+        controllers.add(mFontPickerPreference = new FontPickerPreferenceController(context, lifecycle));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new ColorModePreferenceController(context));
         controllers.add(new DarkThemeStylePreferenceController(context));
