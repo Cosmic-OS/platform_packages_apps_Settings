@@ -72,13 +72,6 @@
     <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
     <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
 
-    <!-- Themes -->
-    <string name="system_theme_style_title">System theme style</string>
-    <string name="system_theme_style_auto">Wallpaper based</string>
-    <string name="system_theme_style_light">Light style</string>
-    <string name="system_theme_style_dark">Dark style</string>
-    <string name="system_theme_style_black">Black style</string>
-
     <!-- Custom light color -->
     <string name="light_customization">Led light notification</string>
     <string name="custom_light_title">Light color</string>
