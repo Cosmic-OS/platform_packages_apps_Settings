@@ -61,16 +61,16 @@
 
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Яркость</string>
-    <string name="night_brightness_value_title">Понизить яркость при ночном режиме</string>
+    <string name="night_brightness_value_title">Понижение яркости при ночном режиме</string>
     <string name="night_bright_disabled">Отключено</string>
     <string name="night_bright_minimum">Минимальная яркость</string>
     <string name="night_bright_low">Низкая яркость</string>
     <string name="night_bright_medium">Средняя яркость</string>
 
     <!-- Dashboard Conditions -->
-    <string name="dashboard_conditions_title">Dashboard conditions</string>
-    <string name="summary_dashboard_conditions_enabled">Dashboard conditions aктивны</string>
-    <string name="summary_dashboard_conditions_disabled">Dashboard conditions отключены</string>
+    <string name="dashboard_conditions_title">Подсказки в настройках</string>
+    <string name="summary_dashboard_conditions_enabled">Подсказки aктивны</string>
+    <string name="summary_dashboard_conditions_disabled">Подсказки отключены</string>
 
     <!-- Custom light color -->
     <string name="light_customization">Цвет диода уведомлений</string>
