@@ -85,7 +85,7 @@
     <!-- App Ops Categories -->
     <string name="app_ops_cat_location">Местоположение</string>
     <string name="app_ops_cat_personal">Личное</string>
-    <string name="app_ops_cat_messaging">Мессенджеры</string>
+    <string name="app_ops_cat_messaging">Коммуникации</string>
     <string name="app_ops_cat_media">Медиа</string>
     <string name="app_ops_cat_device">Устройство</string>
     <string name="app_ops_cat_bootup">Запуск</string>
@@ -207,7 +207,7 @@
     <string name="sim_enabler_need_switch_data_service">Эта SIM-карта будет отключена и SIM-карта <xliff:g id="slotid">%1$s</xliff:g> будет использована для мобильных данных. Вы точно хотите продолжить?</string>
     <string name="sim_enabler_airplane_on">Не удалось совершить операцию из-за авиарежима.</string>
     <string name="sim_enabler_in_call">Не удалось совершить операцию из-за звонка.</string>
-    <string name="sim_enabler_both_inactive">Нельзя отключить обе SIM-карты</string>
+    <string name="sim_enabler_both_inactive">Невозможно отключить обе SIM-карты</string>
     <string name="sim_enabler_enabling">Активация\u2026</string>
     <string name="sim_enabler_disabling">Деактивация\u2026</string>
     <string name="sub_activate_success">SIM-карта активирована.</string>
@@ -218,7 +218,7 @@
 
     <!-- Root Management -->
     <string name="rootmanagement_title">Root менеджер</string>
-    <string name="rootmanagement_dashboard_summary">Управляйте root доступом</string>
+    <string name="rootmanagement_dashboard_summary">Управление root доступом</string>
 
     <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
     <string name="supersu_title">SuperSU</string>
@@ -226,14 +226,14 @@
     <string name="force_ambient_for_media_pref_title">Ambient Music Ticker</string>
     <string name="force_ambient_for_media_off">Выключен</string>
     <string name="force_ambient_for_media_on">Включен</string>
-    <string name="force_ambient_for_media_on_forced">Принудительно включен</string>
+    <string name="force_ambient_for_media_on_forced">Включен принудительно</string>
     <string name="force_ambient_for_media_on_forced_clean">Принудительно включен минимально</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker позволяет отображать текущий музыкальный трек на экране блокировки при включенном или выключенном Ambient Display.\nВы можете выбрать два варианта: обычный и минимальный. Хотя эта функция использует Ambient Display, она от него не зависит.</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker позволяет отображать текущий музыкальный трек на экране блокировки при включенном или выключенном Ambient Display.\nВы можете выбрать из двух вариантов: обычный и минимальный. Хотя эта функция использует Ambient Display, она от него не зависит.</string>
 
     <!-- Pass swipe-up-to-unlock -->
-    <string name="lock_directly_show_password">Сразу отображать ввод пароля</string>
-    <string name="lock_directly_show_pattern">Сразу отображать ввод графического ключа</string>
-    <string name="lock_directly_show_pin">Сразу отображать ввод PIN кода</string>
+    <string name="lock_directly_show_password">Сразу показывать ввод пароля</string>
+    <string name="lock_directly_show_pattern">Сразу показывать ввод графического ключа</string>
+    <string name="lock_directly_show_pin">Сразу показывать ввод PIN кода</string>
     <string name="lock_directly_show_summary">Пропустить свайп вверх для разблокировки устройства</string>
 
     <!-- Sizes for pattern lockscreen -->
