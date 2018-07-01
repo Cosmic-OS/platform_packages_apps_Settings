@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Copyright (C) 2017 Cosmic-OS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Cosmic-OS version -->
+    <string name="cosmic_version">Версия Cosmic-OS</string>
+    <string name="cosmic_version_default">Неизвестно</string>
+
+   <!-- System Updates -->
+    <string name="cosmic_updater_title">Обновления системы</string> 
+
+    <!-- Countdown for user taps to enable development settings -->
+    <plurals name="show_dev_countdown_custom">
+        <item quantity="one">Вам остался <xliff:g id="step_count">%1$d</xliff:g> шаг до активации параметров разработчика.</item>
+        <item quantity="other">Вам осталось <xliff:g id="step_count">%1$d</xliff:g> шага до активации параметров разработчика.</item>
+    </plurals>
+    <!-- Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_custom">Параметры разработчика активированы! Будьте осторожны!</string>
+    <!-- Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_custom">Параметры разработчика уже активны!</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">О телефоне</string>
+
+    <!-- Cosmic Settings -->
+    <string name="cosmic_settings_title">Galaxy</string>
+    <string name="cosmic_settings_summary">Расширенные настройки</string>
+
+    <!-- General Settings -->
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- MediaScanner behavior on boot -->
+    <string name="options_settings_title">Параметры</string>
+    <string name="media_scanner_on_boot_title">Поведение медиасканера при загрузке</string>
+    <string name="media_scanner_on_boot_enabled">Сканировать медиа</string>
+    <string name="media_scanner_on_boot_ask">Спросить разрешения (уведомление)</string>
+    <string name="media_scanner_on_boot_disabled">Не сканировать медиа</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Перемешать раскладку</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемешивать кнопки ввода PIN при разблокировке</string>
+
+    <!-- Quick unlock -->
+   <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+   <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически, когда введён корректный PIN/пароль</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Яркость</string>
+    <string name="night_brightness_value_title">Понижение яркости при ночном режиме</string>
+    <string name="night_bright_disabled">Отключено</string>
+    <string name="night_bright_minimum">Минимальная яркость</string>
+    <string name="night_bright_low">Низкая яркость</string>
+    <string name="night_bright_medium">Средняя яркость</string>
+
+    <!-- Dashboard Conditions -->
+    <string name="dashboard_conditions_title">Подсказки в настройках</string>
+    <string name="summary_dashboard_conditions_enabled">Подсказки aктивны</string>
+    <string name="summary_dashboard_conditions_disabled">Подсказки отключены</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">Цвет диода уведомлений</string>
+    <string name="custom_light_title">Цвет свечения</string>
+    <string name="custom_light_on_time_title">Время зажигания при пульсации (мс)</string>
+    <string name="custom_light_off_time_title">Время затухания при пульсации (мс)"</string>
+    <string name="app_notifications_info_desc">Нажмите на один из каналов выше, чтобы  настроить цвет их свечения и другие опции</string>
+    <string name="value_equals_default">Ориг</string>
+    <string name="show_light_on_zen_title">Пульсировать во время режима "Не беспокоить"</string>
+
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Местоположение</string>
+    <string name="app_ops_cat_personal">Личное</string>
+    <string name="app_ops_cat_messaging">Коммуникации</string>
+    <string name="app_ops_cat_media">Медиа</string>
+    <string name="app_ops_cat_device">Устройство</string>
+    <string name="app_ops_cat_bootup">Запуск</string>
+
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">камера</string>
+    <string name="app_ops_access_location">местоположение</string>
+    <string name="app_ops_access_notifications">уведомления</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">автозапуск</string>
+    <string name="app_ops_delete_call_log">удаление лога звонков</string>
+    <string name="app_ops_delete_contacts">удаление контактов</string>
+    <string name="app_ops_delete_mms">удаление MMS</string>
+    <string name="app_ops_delete_sms">удаление SMS</string>
+    <string name="app_ops_draw_on_top">отрисовка сверху</string>
+    <string name="app_ops_get_usage_stats">статистика использования</string>
+    <string name="app_ops_keep_device_awake">запрет сна</string>
+    <string name="app_ops_make_phone_call">вызов</string>
+    <string name="app_ops_modify_calendar">обновление календаря</string>
+    <string name="app_ops_modify_call_log">обновление лога звонков</string>
+    <string name="app_ops_modify_clipboard">редактирование буфера обмена</string>
+    <string name="app_ops_modify_contacts">обновление контактов</string>
+    <string name="app_ops_modify_settings">обновление настроек</string>
+    <string name="app_ops_mute_unmute_microphone">заглушение микрофона</string>
+    <string name="app_ops_play_audio">воспроизведение аудио</string>
+    <string name="app_ops_post_notification">создание уведомлений</string>
+    <string name="app_ops_project_media">проектирование медиа</string>
+    <string name="app_ops_read_calendar">чтение календаря</string>
+    <string name="app_ops_read_call_log">чтение лога звонков</string>
+    <string name="app_ops_read_clipboard">чтение буфера обмена</string>
+    <string name="app_ops_read_contacts">чтение контактов</string>
+    <string name="app_ops_read_mms">чтение MMS</string>
+    <string name="app_ops_read_sms">чтение SMS</string>
+    <string name="app_ops_receive_sms">получение SMS</string>
+    <string name="app_ops_record_audio">запись аудио</string>
+    <string name="app_ops_send_mms">отправка MMS</string>
+    <string name="app_ops_send_sms">отправка SMS</string>
+    <string name="app_ops_toast_window">тост-сообщения</string>
+    <string name="app_ops_use_alarm_volume">громкость звонка</string>
+    <string name="app_ops_use_audio_focus">фокус аудио</string>
+    <string name="app_ops_use_bluetooth_volume">громкость Bluetooth</string>
+    <string name="app_ops_use_master_volume">управление звуком</string>
+    <string name="app_ops_use_media_buttons">медиа кнопки</string>
+    <string name="app_ops_use_media_volume">медиа звук</string>
+    <string name="app_ops_use_notification_volume">звук уведомлений</string>
+    <string name="app_ops_use_ring_volume">звук рингтона</string>
+    <string name="app_ops_use_vibrate">тактильный отклик</string>
+    <string name="app_ops_use_voice_volume">громкость при звонке</string>
+    <string name="app_ops_write_mms">запись MMS</string>
+    <string name="app_ops_write_sms">запись SMSe</string>
+    <string name="app_ops_use_fingerprint">сканер отпечатков пальцев</string>
+    <string name="app_ops_add_voicemail">голосовая почта</string>
+    <string name="app_ops_read_phone_state">состояние телефона</string>
+    <string name="app_ops_scan_wifi">сканирование сетей WiFi</string>
+    <string name="app_ops_change_wallpaper">смена обоев</string>
+    <string name="app_ops_assist_structure">структура помощника</string>
+    <string name="app_ops_assist_screenshot">скриншот</string>
+    <string name="app_ops_use_body_sensors">нательные датчики</string>
+    <string name="app_ops_read_cell_broadcasts">мобильная передача</string>
+    <string name="app_ops_mock_location">ложное местоположение</string>
+    <string name="app_ops_read_external_storage">чтение внешнего хранилища</string>
+    <string name="app_ops_write_external_storage">запись на внешнее хранилище</string>
+    <string name="app_ops_turn_on_screen">включение экрана</string>
+    <string name="app_ops_get_accounts">аккаунты на устройстве</string>
+    <string name="app_ops_run_in_background">работа в фоне</string>
+    <string name="app_ops_accessibility_volume">специальная громкость</string>
+    <string name="app_ops_read_phone_numbers">чтение номера телефона</string>
+    <string name="app_ops_request_install_packages">установка пакетов</string>
+    <string name="app_ops_picture_in_picture">картинка в картинке</string>
+    <string name="app_ops_app_start_foreground">приоритетный запуск</string>
+    <string name="app_ops_answer_phone_calls">ответ на звонки</string>
+    <string name="app_ops_boot_completed">запуск при загрузке</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Шаги громкости</string>
+    <string name="volume_steps_alarm_title">Шаги громкости: Будильник</string>
+    <string name="volume_steps_dtmf_title">Шаги громкости: DTMF</string>
+    <string name="volume_steps_music_title">Шаги громкости: Музыка</string>
+    <string name="volume_steps_notification_title">Шаги громкости: Уведомления</string>
+    <string name="volume_steps_ring_title">Шаги громкости: Звонок</string>
+    <string name="volume_steps_system_title">Шаги громкости: Система</string>
+    <string name="volume_steps_voice_call_title">Шаги громкости: При звонке</string>
+    <string name="volume_steps_bluetooth_sco_title">Шаги громкости: Bluetooth вызов</string>
+    <string name="volume_steps_reset">Сброс</string>
+    <string name="volume_steps_60" translatable="false">60</string>
+    <string name="volume_steps_45" translatable="false">45</string>
+    <string name="volume_steps_30" translatable="false">30</string>
+    <string name="volume_steps_15" translatable="false">15</string>
+    <string name="volume_steps_7" translatable="false">7</string>
+    <string name="volume_steps_5" translatable="false">5</string>
+
+    <string name="link_volume_option_title">Связать громкость звонка и уведомлений</string>
+
+    <!-- Reset battery stats -->
+    <string name="ok">Ok</string>
+    <string name="menu_stats_reset">Сбросить статистику</string>
+    <string name="reset_stats_msg">Статистика использования батареи будет сброшена</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук скриншота</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Поворот экрана</string>
+    <string name="display_rotation_disabled">Выключен</string>
+    <string name="display_rotation_unit">градусы</string>
+    <string name="display_rotation_category_title">Допустимые углы поворота</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
+
+    <!-- MSIM Manual provisioning -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">Включено</string>
+    <string name="sim_disabled">Выключено</string>
+    <string name="sim_missing">отсутствует или неисправна</string>
+    <string name="sim_enabler_need_disable_sim">SIM-карта будет деактивирована. Хотите продолжить?</string>
+    <string name="sim_enabler_will_disable_sim_title">Внимание</string>
+    <string name="sim_enabler_need_switch_data_service">Эта SIM-карта будет отключена и SIM-карта <xliff:g id="slotid">%1$s</xliff:g> будет использована для мобильных данных. Вы точно хотите продолжить?</string>
+    <string name="sim_enabler_airplane_on">Не удалось совершить операцию из-за авиарежима.</string>
+    <string name="sim_enabler_in_call">Не удалось совершить операцию из-за звонка.</string>
+    <string name="sim_enabler_both_inactive">Невозможно отключить обе SIM-карты</string>
+    <string name="sim_enabler_enabling">Активация\u2026</string>
+    <string name="sim_enabler_disabling">Деактивация\u2026</string>
+    <string name="sub_activate_success">SIM-карта активирована.</string>
+    <string name="sub_activate_failed">Ошибка активации.</string>
+    <string name="sub_deactivate_success">SIM-карта деактивирована.</string>
+    <string name="sub_deactivate_failed">Ошибка деактивации.</string>
+    <string name="available_sims_title">Доступные SIM-карты</string>
+
+    <!-- Root Management -->
+    <string name="rootmanagement_title">Root менеджер</string>
+    <string name="rootmanagement_dashboard_summary">Управление root доступом</string>
+
+    <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+    <string name="supersu_title">SuperSU</string>
+ 
+    <string name="force_ambient_for_media_pref_title">Ambient Music Ticker</string>
+    <string name="force_ambient_for_media_off">Выключен</string>
+    <string name="force_ambient_for_media_on">Включен</string>
+    <string name="force_ambient_for_media_on_forced">Включен принудительно</string>
+    <string name="force_ambient_for_media_on_forced_clean">Принудительно включен минимально</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker позволяет отображать текущий музыкальный трек на экране блокировки при включенном или выключенном Ambient Display.\nВы можете выбрать из двух вариантов: обычный и минимальный. Хотя эта функция использует Ambient Display, она от него не зависит.</string>
+
+    <!-- Pass swipe-up-to-unlock -->
+    <string name="lock_directly_show_password">Сразу показывать ввод пароля</string>
+    <string name="lock_directly_show_pattern">Сразу показывать ввод графического ключа</string>
+    <string name="lock_directly_show_pin">Сразу показывать ввод PIN кода</string>
+    <string name="lock_directly_show_summary">Пропустить свайп вверх для разблокировки устройства</string>
+
+    <!-- Sizes for pattern lockscreen -->
+    <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
+    <string name="lock_pattern_size_4" translatable="false">4 \u00d7 4</string>
+    <string name="lock_pattern_size_5" translatable="false">5 \u00d7 5</string>
+    <string name="lock_pattern_size_6" translatable="false">6 \u00d7 6</string>
+
+    <string name="lock_settings_picker_pattern_size_message">Выберите размер граф. ключа</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Показывать ошибку граф. ключа</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Показывать путь ввода граф. ключа</string>
+
+    <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">Вибрировать</string>
+    <string name="lockscreen_vibrate_enabled_head">Вибрировать при разблокировке</string>
+
+    <!-- Search -->
+    <string name="menu_search">Search apps</string>
+    <string name="menu_search_hint">Search apps\u2026</string>
+
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Анимация выключения экрана</string>
+    <string name="screen_off_animation_default">Стандартная</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Уменьшение</string>
+
+    <!-- Font picker -->
+    <string name="font_picker_title">Шрифт</string> 
+    <string name="disable_fonts_installed_title">Стронние шрифты неактивны</string>
+</resources>
