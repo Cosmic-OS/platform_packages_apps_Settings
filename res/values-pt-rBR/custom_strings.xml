@@ -254,5 +254,20 @@
 
     <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">Vibrar</string>
-    <string name="lockscreen_vibrate_enabled_head">Vibrar quando desbloqueado</string>     
+    <string name="lockscreen_vibrate_enabled_head">Vibrar quando desbloqueado</string>
+
+    <!-- Search -->
+    <string name="menu_search">Aplicativos de pesquisa</string>
+    <string name="menu_search_hint">Aplicativos de pesquisa\u2026</string>
+
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Scale</string>
+
+    <!-- Font picker -->
+    <string name="font_picker_title">Fonte</string> 
+    <string name="disable_fonts_installed_title">Fontes personalizadas desativadas</string>
+
 </resources>
