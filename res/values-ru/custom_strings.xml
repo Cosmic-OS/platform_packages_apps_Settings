@@ -228,7 +228,7 @@
     <string name="force_ambient_for_media_on">Включен</string>
     <string name="force_ambient_for_media_on_forced">Включен принудительно</string>
     <string name="force_ambient_for_media_on_forced_clean">Принудительно включен минимально</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker позволяет отображать текущий музыкальный трек на экране блокировки при включенном или выключенном Ambient Display.\nВы можете выбрать из двух вариантов: обычный и минимальный. Хотя эта функция использует Ambient Display, она от него не зависит.</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker позволяет отображать текущий музыкальный трек на заблокированном экране при включенном или выключенном Ambient Display.\nВы можете выбрать из двух вариантов: обычный и минимальный. Хотя эта функция использует Ambient Display, она от него не зависит.</string>
 
     <!-- Pass swipe-up-to-unlock -->
     <string name="lock_directly_show_password">Сразу показывать ввод пароля</string>
