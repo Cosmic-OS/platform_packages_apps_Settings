@@ -41,6 +41,7 @@ import com.android.settings.display.QsHeaderStylePreferenceController;
 import com.android.settings.display.TimeoutPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
 import com.android.settings.display.WallpaperPreferenceController;
+import com.android.settings.display.FontPickerPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -106,6 +107,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ThemePreferenceController(context));
 	controllers.add(new QsHeaderStylePreferenceController(context));
         controllers.add(new SwitchStylePreferenceController(context));
+        controllers.add(new FontPickerPreferenceController(context, lifecycle, fragment));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new ColorModePreferenceController(context));
         controllers.add(new DarkThemeStylePreferenceController(context));
