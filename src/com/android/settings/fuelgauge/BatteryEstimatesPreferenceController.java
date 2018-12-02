@@ -29,7 +29,7 @@ import com.android.settings.search.DatabaseIndexingUtils;
 import com.android.settings.R;
 import com.android.settingslib.core.AbstractPreferenceController;
 
-import com.lotus.settings.preferences.Utils;
+import com.cosmic.settings.preferences.Utils;
 
 import static android.provider.Settings.System.SHOW_BATTERY_ESTIMATE;
 
