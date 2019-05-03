@@ -155,4 +155,43 @@
         <item>600</item>
     </string-array>
 
+    <!-- Quick pulldown -->
+    <string-array name="status_bar_quick_qs_pulldown_entries" translatable="false">
+        <item>@string/status_bar_quick_qs_pulldown_off</item>
+        <item>@string/status_bar_quick_qs_pulldown_right</item>
+        <item>@string/status_bar_quick_qs_pulldown_left</item>
+    </string-array>
+    <string-array name="status_bar_quick_qs_pulldown_entries_rtl" translatable="false">
+        <item>@string/status_bar_quick_qs_pulldown_off</item>
+        <item>@string/status_bar_quick_qs_pulldown_left</item>
+        <item>@string/status_bar_quick_qs_pulldown_right</item>
+    </string-array>
+    <string-array name="status_bar_quick_qs_pulldown_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="status_bar_quick_qs_pulldown_values_rtl" translatable="false">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- Titles for SystemUI theme preference. -->
+    <string-array name="systemui_theme_entries" >
+        <item>@string/systemui_theme_wallpaper</item>
+        <item>@string/systemui_theme_time</item>
+        <item>@string/systemui_theme_light</item>
+        <item>@string/systemui_theme_dark</item>
+    </string-array>
+
+    <!-- Values for SystemUI theme preference. -->
+    <string-array name="systemui_theme_values" translatable="false" >
+        <item>0</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+>>>>>>> e7eb91dcb7... Settings: Add automatic theme based on time
 </resources>
