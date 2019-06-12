@@ -267,7 +267,6 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             CosmicSettings.class.getName(),
-            AmbientPlayHistory.class.getName(),
             LiveDisplaySettings.class.getName(),
     };
 
