@@ -136,6 +136,28 @@
         <item>org.pixelexperience.overlay.accent.red</item>
         <item>org.pixelexperience.overlay.accent.yellow</item>
         <item>org.pixelexperience.overlay.accent.teal</item>
+        <item>com.accents.palered</item>
+        <item>com.accents.hazedpink</item>
+        <item>com.accents.bubblegumpink</item>
+        <item>com.accents.trufilpink</item> 
+        <item>com.accents.duskpurple</item> 
+        <item>com.accents.illusionspurple</item> 
+        <item>com.accents.spookedpurple</item> 
+        <item>com.accents.notimppurple</item>
+        <item>com.accents.dreamypurple</item> 
+        <item>com.accents.footprintpurple</item> 
+        <item>com.accents.obfusbleu</item> 
+        <item>com.accents.frenchbleu</item> 
+        <item>com.accents.coldbleu</item> 
+        <item>com.accents.heirloombleu</item> 
+        <item>com.accents.paleblue</item> 
+        <item>com.accents.holillusion</item> 
+        <item>com.accents.stock</item>
+        <item>com.accents.seasidemint</item>
+        <item>com.accents.movemint</item> 
+        <item>com.accents.extendedgreen</item> 
+        <item>com.accents.diffdaygreen</item> 
+        <item>com.accents.jadegreen</item>               
     </string-array>
     <string-array name="allowed_themes_when_light" translatable="false">
         <item>org.pixelexperience.overlay.accent.black</item>
