@@ -80,7 +80,7 @@ public abstract class DataUsageBase extends SettingsPreferenceFragment {
     }
 
     protected boolean isNetworkPolicyModifiable(NetworkPolicy policy, int subId) {
-        return policy != null && services.mUserManager.isAdminUser()
+        return policy != null && isBandwidthControlEnabled() && services.mUserManager.isAdminUser()
                 && isDataEnabled(subId);
     }
 
@@ -89,6 +89,15 @@ public abstract class DataUsageBase extends SettingsPreferenceFragment {
             return true;
         }
         return services.mTelephonyManager.getDataEnabled(subId);
+    }
+
+    protected boolean isBandwidthControlEnabled() {
+        try {
+            return services.mNetworkService.isBandwidthControlEnabled();
+        } catch (RemoteException e) {
+            Log.w(TAG, "problem talking with INetworkManagementService: ", e);
+            return false;
+        }
     }
 
     /**
