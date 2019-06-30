@@ -104,7 +104,7 @@ import com.cosmic.settings.fragments.BatteryCategory;
 import com.cosmic.settings.fragments.ButtonSettings;
 import com.cosmic.settings.fragments.CarrierSettings;
 import com.cosmic.settings.fragments.ClockDateSettings;
-import com.cosmic.settings.fragments.GestureSettings;
+import com.cosmic.settings.fragments.CustomGestureSettings;
 import com.cosmic.settings.fragments.Interfaces;
 import com.cosmic.settings.fragments.Animations;
 import com.cosmic.settings.fragments.LockScreenSettings;
@@ -228,7 +228,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(ClockDateSettings.class);
 	addIndex(Interfaces.class);
 	addIndex(Animations.class);
-        addIndex(GestureSettings.class);
+        addIndex(CustomGestureSettings.class);
         addIndex(LockScreenSettings.class);
         addIndex(MiscSettings.class);
         addIndex(NotificationSettings.class);
