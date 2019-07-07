@@ -175,4 +175,5 @@ public class Settings extends SettingsActivity {
 
     // Cosmic-OS
     public static class CosmicSettingsActivity extends SettingsActivity {}
+    public static class GamingModeActivity extends SettingsActivity { /* empty */ }
 }
