@@ -201,11 +201,6 @@
             android:entries="@array/switch_style_entries"
             android:entryValues="@array/switch_style_values" />
                     
-    <ListPreference
-        android:key="theme"
-        android:title="@string/color_theme"
-        android:summary="@string/summary_placeholder" />
-
     <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
