@@ -22,6 +22,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Cosmic-OS Header -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="cosmic_header"
+        android:layout="@layout/cosmic_header"
+        android:selectable="false" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"

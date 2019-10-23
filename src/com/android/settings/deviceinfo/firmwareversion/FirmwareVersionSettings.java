@@ -24,6 +24,7 @@ import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
+import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.search.SearchIndexable;
 
 import java.util.ArrayList;
@@ -45,6 +46,13 @@ public class FirmwareVersionSettings extends DashboardFragment {
     @Override
     public int getMetricsCategory() {
         return SettingsEnums.DIALOG_FIRMWARE_VERSION;
+    }
+
+    @Override
+    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
+        final List<AbstractPreferenceController> controllers = new ArrayList<>();
+        controllers.add(new CosmicHeaderPreferenceController(context));
+        return controllers;
     }
 
     public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
