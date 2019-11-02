@@ -51,4 +51,8 @@
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+
+    <!-- Ambient wake gestures -->
+    <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal losckreen on wake gestures</string>
 </resources>
