@@ -55,4 +55,9 @@
     <!-- Ambient wake gestures -->
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal losckreen on wake gestures</string>
+
+    <!-- Dt2s on lockscreen -->
+    <string name="doubletap_lockscreen_screen_title">Switch screen off</string>
+    <string name="doubletap_lockscreen_title">Double tap to sleep on losckreen</string>
+    <string name="doubletap_lockscreen_summary">Double tap on lockscreen empty areas to switch the screen off</string>
 </resources>
