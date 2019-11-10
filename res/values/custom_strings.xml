@@ -60,4 +60,9 @@
     <string name="doubletap_lockscreen_screen_title">Switch screen off</string>
     <string name="doubletap_lockscreen_title">Double tap to sleep on losckreen</string>
     <string name="doubletap_lockscreen_summary">Double tap on lockscreen empty areas to switch the screen off</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="net_monitor_category_title">Network monitor</string>
+    <string name="network_traffic_state_title">Show net activity in expanded statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 </resources>
