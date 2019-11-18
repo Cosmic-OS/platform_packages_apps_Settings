@@ -93,4 +93,7 @@
     <!-- AOD on charging mode -->
     <string name="doze_on_charge_title">Always On when charging</string>
     <string name="doze_on_charge_summary">Show Always On Ambient display when charging</string>
+
+    <!-- Lockscreen media blur -->
+    <string name="lockscreen_media_blur_title">Lockscreen media art blur level</string>
 </resources>
