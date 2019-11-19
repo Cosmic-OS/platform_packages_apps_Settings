@@ -95,5 +95,7 @@
     <string name="doze_on_charge_summary">Show Always On Ambient display when charging</string>
 
     <!-- Lockscreen media blur -->
-    <string name="lockscreen_media_blur_title">Lockscreen media art blur level</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
+    <string name="show_lockscreen_media_art_title">Show media art</string>
+    <string name="lockscreen_media_art_options_title">Lockscreen media art</string>
 </resources>
